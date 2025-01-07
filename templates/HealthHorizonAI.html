@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cure Code - Health Horizon</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/about-us">About Us</a>
+      <a class="nav-link" href="/museum">Museum</a>
+      <a class="nav-link" href="/our-vision">Our Vision</a>
+      <a class="nav-link active" href="/health-horizon">Health Horizon</a>
+      <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+      <a class="nav-link" href="/case-studies">Case Studies</a>
+      <a class="nav-link" href="/expert-talk">Expert Talk</a>
+      <a class="nav-link" href="/trivia">Trivia</a>
+      <a class="nav-link" href="/reviews">Reviews</a>
+      <p class="nav-icon">Cure Code</p>
+  </div>
+  
+
+    <div class="Container" style="position: relative; top: 75px">
+      <div class="chatbox" id="chatbox">
+        <div id="messages" style="color: #c1c1c1; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; overflow-x: hidden;"></div>
+      </div>
+      <br>
+      <hr style="width:80%">
+      <br>
+      <div class="AiInput">
+        <div class="InputHolder">
+          <input id="input" placeholder="Ask Health Horizon something..."></input>
+          <button id="input-submit" style="position: relative; left:20px">Ask</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+    <script src="{{ url_for('static', filename='JS/health_horizon.js') }}"></script>
+  </body>
+</html>

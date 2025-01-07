@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Interview with. James Patel, Oncologist</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link active" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Dr. James Patel - Oncologist</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/oncology.png')  }}" class="museum-image"
+            style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText"><b>Interview with Dr. James Patel, Oncologist</b>
+        <br><br><br><br>
+        Interviewer: Dr. Patel, thank you for joining us. How has AI impacted the field of oncology?
+        <br><br>
+        Dr. Patel: It’s a pleasure to be here. AI has made significant strides in oncology, particularly in early
+        detection and personalized treatment. AI tools can analyze pathology slides with high precision to identify
+        cancerous cells, which is crucial for early diagnosis. Moreover, AI can analyze data from various sources, such
+        as genetic profiles and treatment responses, to create personalized treatment plans tailored to each patient's
+        needs.
+        <br><br>
+        Interviewer: Can you share specific examples of AI tools that have been beneficial in your practice?
+        <br><br>
+        Dr. Patel: Certainly. IBM Watson for Oncology, for example, assists by analyzing extensive medical literature
+        and patient data to provide evidence-based treatment recommendations. Another tool, PathAI, helps pathologists
+        in diagnosing cancer from tissue samples. These AI tools have significantly improved diagnostic accuracy and
+        treatment planning, leading to better patient outcomes.
+        <br><br>
+        Interviewer: What are the future prospects for AI in oncology?
+        <br><br>
+        Dr. Patel: The future of AI in oncology is very promising. We can anticipate further advancements in AI-driven
+        diagnostics and treatment planning. AI could also play a role in drug discovery, identifying new therapeutic
+        targets and accelerating the development of new cancer treatments. As technology evolves, AI will become even
+        more integral to oncology, enhancing the quality of care and patient outcomes.
+        <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

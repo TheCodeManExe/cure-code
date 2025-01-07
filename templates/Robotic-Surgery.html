@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Robotic Suregery</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link active" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">Robotic Surgery</p>
+  <p class="SubHeadText"></p>
+  <img src="{{ url_for('static', filename='IMG/robotic-surgery.png')  }}" class="museum-image"
+    style="display: block; margin-left: auto; margin-right: auto;">
+  <p class="DescText">
+    <b>Robotic surgery</b> is a type of minimally invasive surgery that uses robotic systems to assist surgeons in
+    performing complex procedures with greater precision, flexibility, and control. The most common robotic surgical
+    system involves a camera arm and several mechanical arms with surgical instruments attached. The surgeon controls
+    these arms from a console near the operating table, viewing a high-definition, magnified 3D image of the surgical
+    site. This technology allows for more precise movements than traditional surgery, reducing the risk of complications
+    and enhancing patient outcomes.<br><br>
+
+    <b>History:</b> The development of robotic surgery began in the late 20th century as part of efforts to improve
+    minimally invasive surgical techniques. The first robotic surgical systems were developed in the 1980s, with early
+    systems designed for use in neurosurgery and orthopedic surgery. The introduction of the da Vinci Surgical System in
+    2000 marked a significant milestone, as it became the first robotic system approved by the FDA for general
+    laparoscopic surgery. Since then, robotic surgery has expanded to numerous surgical specialties, including urology,
+    gynecology, and cardiothoracic surgery.<br><br>
+
+    <b>How robotic surgery works:</b> In robotic surgery, the surgeon sits at a console and uses hand controls to
+    manipulate the robotic arms, which hold surgical instruments and a camera. The robotic system translates the
+    surgeon's hand movements into smaller, more precise movements of the instruments inside the patient's body. The
+    camera provides a magnified, high-definition view of the surgical area, allowing the surgeon to see detailed
+    structures and tissues. This level of precision and visualization helps surgeons perform intricate procedures
+    through small incisions, resulting in less pain, reduced blood loss, and faster recovery for patients.<br><br>
+
+    <b>Applications of robotic surgery:</b> Robotic surgery is used in a wide range of surgical procedures. In
+    <b>urology</b>, it is commonly used for prostatectomies, where the precision of the robotic system is beneficial for
+    preserving nerve function and urinary continence. In <b>gynecology</b>, robotic surgery is often employed for
+    hysterectomies and myomectomies, offering advantages in terms of reduced scarring and quicker recovery. Robotic
+    surgery is also used in <b>cardiothoracic</b> procedures, such as coronary artery bypass and valve repair, where the
+    technology allows for delicate operations on the heart and lungs without opening the chest.<br><br>
+
+    <b>Benefits and challenges:</b> The primary benefits of robotic surgery include enhanced precision, smaller
+    incisions, reduced pain, and shorter recovery times compared to traditional open surgery. The robotic system's
+    ability to filter out hand tremors and scale movements down to micrometric levels provides surgeons with
+    unparalleled control. However, robotic surgery also presents challenges, including the high cost of the equipment
+    and the need for specialized training for surgeons. Additionally, while robotic systems are highly advanced, the
+    success of the surgery still depends on the skill and experience of the surgeon operating the system.<br><br>
+
+    <b>Future of robotic surgery:</b> As technology continues to advance, the field of robotic surgery is expected to
+    grow, with improvements in system capabilities, such as increased automation, enhanced imaging, and artificial
+    intelligence integration. These developments may lead to more widespread adoption of robotic surgery and the ability
+    to perform even more complex procedures with greater safety and efficiency. Additionally, the potential for remote
+    robotic surgery, where surgeons can operate on patients from different locations, could revolutionize access to
+    surgical care, particularly in underserved or remote areas.
+
+  </p>
+
+  <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

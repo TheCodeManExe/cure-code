@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Genetic Engineering</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link active" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">Genetic Engineering</p>
+  <p class="SubHeadText"></p>
+  <img src="{{ url_for('static', filename='IMG/genetic-engineering.png')  }}" class="museum-image"
+    style="display: block; margin-left: auto; margin-right: auto;">
+  <p class="DescText">
+    <b>Genetic engineering</b> is the process of manipulating an organism’s DNA to alter its characteristics or
+    functions. This technology allows scientists to modify genes in plants, animals, and microorganisms to achieve
+    desired traits, such as disease resistance in crops, production of therapeutic proteins, or even the potential for
+    curing genetic disorders in humans. Genetic engineering is a powerful tool in biotechnology, with applications in
+    medicine, agriculture, and research.<br><br>
+
+    <b>History:</b> The concept of genetic manipulation dates back to ancient times, with early humans selectively
+    breeding plants and animals to enhance desirable traits. However, the modern era of genetic engineering began in the
+    1970s with the development of recombinant DNA technology. This technique, pioneered by scientists like Paul Berg,
+    Herbert Boyer, and Stanley Cohen, allowed for the insertion of genes from one organism into another, creating
+    genetically modified organisms (GMOs). The first genetically engineered product, human insulin produced by bacteria,
+    was approved for medical use in 1982, marking a major milestone in biotechnology.<br><br>
+
+    <b>How genetic engineering works:</b> Genetic engineering typically involves several key steps. First, the desired
+    gene is identified and isolated from the source organism. This gene is then inserted into a vector, such as a
+    plasmid, which can carry the gene into the target organism’s cells. Once inside, the gene is integrated into the
+    target organism’s genome, where it can be expressed to produce the desired trait or protein. Techniques such as
+    CRISPR-Cas9 have revolutionized genetic engineering by allowing for precise editing of specific genes, making the
+    process more efficient and accurate.<br><br>
+
+    <b>Applications of genetic engineering:</b> Genetic engineering has a wide range of applications across different
+    fields. In <b>medicine</b>, it is used to produce biopharmaceuticals, such as insulin, growth hormones, and
+    vaccines. It also holds promise for gene therapy, where faulty genes in patients can be corrected to treat genetic
+    disorders. In <b>agriculture</b>, genetically modified crops are engineered for improved yield, pest resistance, and
+    nutritional content. <b>Environmental applications</b> include engineering bacteria to clean up pollutants or to
+    produce biofuels. Genetic engineering is also a key tool in research, enabling scientists to study gene functions
+    and develop new treatments.<br><br>
+
+    <b>Ethical considerations:</b> The power of genetic engineering raises important ethical questions. Concerns include
+    the potential for unintended consequences, such as environmental impacts or the creation of new diseases. The use of
+    genetic engineering in humans, particularly for gene editing, raises debates about the potential for "designer
+    babies" and the implications of altering human genetics. As the technology advances, there is ongoing discussion
+    about the need for regulations and guidelines to ensure that genetic engineering is used responsibly and
+    ethically.<br><br>
+
+    <b>Future prospects:</b> The future of genetic engineering holds immense potential. Advances in gene editing
+    technologies like CRISPR-Cas9 are making it possible to target and modify genes with unprecedented precision,
+    opening up new possibilities for treating genetic disorders, improving crop resilience, and even combating climate
+    change. As our understanding of genetics and biotechnology deepens, genetic engineering is likely to play an
+    increasingly significant role in addressing some of the world’s most pressing challenges, from healthcare to food
+    security and beyond.
+
+  </p>
+  <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

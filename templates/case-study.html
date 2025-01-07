@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Case Studies</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            width: 50%;
+            height: 250px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link active" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+
+    <p class="HeadText" style="font-size: 4rem;">Development of Technology in the Medical Field</p>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="/case-study/ai-powered-management-of-diabetes"><img src="static/IMG/artificial-intelligence-chip.png"></a>
+            <p>Case Study 1: AI-Powered Management of Type 1 Diabetes at Stanford University</p>
+        </div>
+
+        <div class="grid-item">
+            <a href="/case-study/genetic-reprogramming-acute-myeloid-leukemia"><img src="static/IMG/dna.png"></a>
+            <p>Case Study 2: Genetic Reprogramming in Acute Myeloid Leukemia (AML)</p>
+        </div>
+
+        <div class="grid-item">
+            <a href="/case-study/telemedicine"><img src="static/IMG/telemedicine.png"></a>
+            <p>Case Study 3: Telemedicine in Rural Areas – The Case of Remote Patient Monitoring in Appalachia</p>
+        </div>
+
+        <div class="grid-item">
+            <a href="/case-study/ai-in-medical-imaging-for-cancer-detection"><img src="static/IMG/chemotherapy.png"></a>
+            <p>Case Study 4: AI in Medical Imaging for Cancer Detection</p>
+        </div>
+
+        <div class="grid-item">
+            <a href="/case-study/crispr-cas9-revolutionizing-genome-editing"><img src="static/IMG/genetic-engineering.png"></a>
+            <p>Case Study 5: CRISPR-Cas9 - Revolutionizing Genome Editing</p>
+        </div>
+
+        <div class="grid-item">
+            <a href="/case-study/mpox-outbreak-in-california-2022"><img src="static/IMG/anesthesia.png" style="width: 80%;"></a>
+            <p>Case Study 6: Case Study: Mpox Outbreak in California (2022)</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

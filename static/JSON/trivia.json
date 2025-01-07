@@ -1,0 +1,1435 @@
+{
+    "questions": [
+        {
+            "question": "What is the basic functional unit of the kidney?",
+            "wrongOptions": [
+                "Neuron",
+                "Osteon",
+                "Alveolus"
+            ],
+            "correctOption": "Nephron"
+        },
+        {
+            "question": "Which vitamin is essential for blood clotting?",
+            "wrongOptions": [
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin B12"
+            ],
+            "correctOption": "Vitamin K"
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "wrongOptions": [
+                "Liver",
+                "Brain",
+                "Heart"
+            ],
+            "correctOption": "Skin"
+        },
+        {
+            "question": "Which part of the brain is responsible for balance and coordination?",
+            "wrongOptions": [
+                "Cerebrum",
+                "Medulla",
+                "Hypothalamus"
+            ],
+            "correctOption": "Cerebellum"
+        },
+        {
+            "question": "What is the common name for the clavicle?",
+            "wrongOptions": [
+                "Shinbone",
+                "Jawbone",
+                "Backbone"
+            ],
+            "correctOption": "Collarbone"
+        },
+        {
+            "question": "Which blood type is known as the universal donor?",
+            "wrongOptions": [
+                "Type A",
+                "Type B",
+                "Type AB"
+            ],
+            "correctOption": "Type O"
+        },
+        {
+            "question": "What is the medical term for high blood pressure?",
+            "wrongOptions": [
+                "Hypotension",
+                "Bradycardia",
+                "Arrhythmia"
+            ],
+            "correctOption": "Hypertension"
+        },
+        {
+            "question": "Which organ is responsible for filtering blood and producing urine?",
+            "wrongOptions": [
+                "Heart",
+                "Liver",
+                "Pancreas"
+            ],
+            "correctOption": "Kidney"
+        },
+        {
+            "question": "Which hormone regulates the sleep-wake cycle?",
+            "wrongOptions": [
+                "Insulin",
+                "Adrenaline",
+                "Cortisol"
+            ],
+            "correctOption": "Melatonin"
+        },
+        {
+            "question": "What is the name of the condition characterized by inflamed joints?",
+            "wrongOptions": [
+                "Osteoporosis",
+                "Scoliosis",
+                "Anemia"
+            ],
+            "correctOption": "Arthritis"
+        },
+        {
+            "question": "What is the main function of red blood cells?",
+            "wrongOptions": [
+                "Fight infections",
+                "Clot blood",
+                "Store fat"
+            ],
+            "correctOption": "Transport oxygen"
+        },
+        {
+            "question": "Which part of the eye controls the amount of light that enters?",
+            "wrongOptions": [
+                "Retina",
+                "Cornea",
+                "Lens"
+            ],
+            "correctOption": "Iris"
+        },
+        {
+            "question": "What is the smallest bone in the human body?",
+            "wrongOptions": [
+                "Femur",
+                "Humerus",
+                "Tibia"
+            ],
+            "correctOption": "Stapes"
+        },
+        {
+            "question": "Which type of blood vessel carries blood away from the heart?",
+            "wrongOptions": [
+                "Veins",
+                "Capillaries",
+                "Arterioles"
+            ],
+            "correctOption": "Arteries"
+        },
+        {
+            "question": "Which gland is known as the master gland of the endocrine system?",
+            "wrongOptions": [
+                "Thyroid gland",
+                "Adrenal gland",
+                "Pineal gland"
+            ],
+            "correctOption": "Pituitary gland"
+        },
+        {
+            "question": "What is the primary function of platelets in the blood?",
+            "wrongOptions": [
+                "Carry oxygen",
+                "Fight infections",
+                "Transport nutrients"
+            ],
+            "correctOption": "Clot blood"
+        },
+        {
+            "question": "Which disease is caused by the lack of insulin production?",
+            "wrongOptions": [
+                "Osteoporosis",
+                "Hypertension",
+                "Cancer"
+            ],
+            "correctOption": "Diabetes"
+        },
+        {
+            "question": "Which part of the brain controls voluntary muscle movements?",
+            "wrongOptions": [
+                "Brainstem",
+                "Cerebellum",
+                "Thalamus"
+            ],
+            "correctOption": "Cerebrum"
+        },
+        {
+            "question": "Which organ is primarily responsible for detoxification in the body?",
+            "wrongOptions": [
+                "Kidney",
+                "Lungs",
+                "Heart"
+            ],
+            "correctOption": "Liver"
+        },
+        {
+            "question": "Which type of joint is found in the shoulders and hips?",
+            "wrongOptions": [
+                "Hinge joint",
+                "Saddle joint",
+                "Pivot joint"
+            ],
+            "correctOption": "Ball-and-socket joint"
+        },
+        {
+            "question": "What is the main structural component of the human bone?",
+            "wrongOptions": [
+                "Collagen",
+                "Keratin",
+                "Elastin"
+            ],
+            "correctOption": "Calcium"
+        },
+        {
+            "question": "Which disease is known as the silent killer?",
+            "wrongOptions": [
+                "Diabetes",
+                "Cancer",
+                "Asthma"
+            ],
+            "correctOption": "Hypertension"
+        },
+        {
+            "question": "What is the primary function of white blood cells?",
+            "wrongOptions": [
+                "Carry oxygen",
+                "Transport nutrients",
+                "Clot blood"
+            ],
+            "correctOption": "Fight infections"
+        },
+        {
+            "question": "Why does blood clot?",
+            "wrongOptions": [
+                "To increase bleeding",
+                "To produce WBCs",
+                "To transport nutrients"
+            ],
+            "correctOption": "To stop excessive bleeding"
+        },
+        {
+            "question": "Which part of the human body produces insulin?",
+            "wrongOptions": [
+                "Liver",
+                "Kidneys",
+                "Spleen"
+            ],
+            "correctOption": "Pancreas"
+        },
+        {
+            "question": "What is the medical term for the windpipe?",
+            "wrongOptions": [
+                "Esophagus",
+                "Larynx",
+                "Bronchus"
+            ],
+            "correctOption": "Trachea"
+        },
+        {
+            "question": "Which mineral is essential for the formation of hemoglobin?",
+            "wrongOptions": [
+                "Calcium",
+                "Potassium",
+                "Magnesium"
+            ],
+            "correctOption": "Iron"
+        },
+        {
+            "question": "Which disease is caused by a deficiency of Vitamin D?",
+            "wrongOptions": [
+                "Scurvy",
+                "Pellagra",
+                "Beriberi"
+            ],
+            "correctOption": "Rickets"
+        },
+        {
+            "question": "Which part of the brain controls heart rate and breathing?",
+            "wrongOptions": [
+                "Cerebrum",
+                "Cerebellum",
+                "Hypothalamus"
+            ],
+            "correctOption": "Medulla oblongata"
+        },
+        {
+            "question": "What is the main function of the large intestine?",
+            "wrongOptions": [
+                "Digest food",
+                "Absorb nutrients",
+                "Produce enzymes"
+            ],
+            "correctOption": "Absorb water"
+        },
+        {
+            "question": "What is the common term for myocardial infarction?",
+            "wrongOptions": [
+                "Stroke",
+                "Hypertension",
+                "Angina"
+            ],
+            "correctOption": "Heart attack"
+        },
+        {
+            "question": "Which bone is commonly known as the kneecap?",
+            "wrongOptions": [
+                "Femur",
+                "Tibia",
+                "Fibula"
+            ],
+            "correctOption": "Patella"
+        },
+        {
+            "question": "Which hormone is known as the stress hormone?",
+            "wrongOptions": [
+                "Insulin",
+                "Oxytocin",
+                "Melatonin"
+            ],
+            "correctOption": "Cortisol"
+        },
+        {
+            "question": "Which vitamin is important for vision?",
+            "wrongOptions": [
+                "Vitamin C",
+                "Vitamin E",
+                "Vitamin K"
+            ],
+            "correctOption": "Vitamin A"
+        },
+        {
+            "question": "Which organ is primarily responsible for producing bile?",
+            "wrongOptions": [
+                "Stomach",
+                "Pancreas",
+                "Small intestine"
+            ],
+            "correctOption": "Liver"
+        },
+        {
+            "question": "Which muscle is the strongest in the human body based on its size?",
+            "wrongOptions": [
+                "Biceps",
+                "Quadriceps",
+                "Deltoid"
+            ],
+            "correctOption": "Masseter"
+        },
+        {
+            "question": "Which type of fat is considered 'good' cholesterol?",
+            "wrongOptions": [
+                "LDL",
+                "Triglycerides",
+                "Saturated fat"
+            ],
+            "correctOption": "HDL"
+        },
+        {
+            "question": "What is the main cause of atherosclerosis?",
+            "wrongOptions": [
+                "Vitamin deficiency",
+                "Lack of exercise",
+                "High blood pressure"
+            ],
+            "correctOption": "High cholesterol"
+        },
+        {
+            "question": "Which part of the ear is responsible for balance?",
+            "wrongOptions": [
+                "Cochlea",
+                "Eardrum",
+                "Pinna"
+            ],
+            "correctOption": "Vestibular system"
+        },
+        {
+            "question": "What is the primary function of the spleen?",
+            "wrongOptions": [
+                "Filter air",
+                "Store glucose",
+                "Regulate hormones"
+            ],
+            "correctOption": "Filter blood"
+        },
+        {
+            "question": "Which medical imaging technique uses magnetic fields to create images?",
+            "wrongOptions": [
+                "X-ray",
+                "CT scan",
+                "Ultrasound"
+            ],
+            "correctOption": "MRI"
+        },
+        {
+            "question": "Which condition is characterized by the loss of bone density?",
+            "wrongOptions": [
+                "Arthritis",
+                "Scoliosis",
+                "Fibromyalgia"
+            ],
+            "correctOption": "Osteoporosis"
+        },
+        {
+            "question": "What is the main purpose of the lymphatic system?",
+            "wrongOptions": [
+                "Produce hormones and regulate body temperature",
+                "Control blood sugar and maintain blood pressure",
+                "Digest and absorb nutrients"
+            ],
+            "correctOption": "Remove waste and fight infections"
+        },
+        {
+            "question": "Which vitamin is produced by the skin when exposed to sunlight?",
+            "wrongOptions": [
+                "Vitamin B12",
+                "Vitamin K",
+                "Vitamin E"
+            ],
+            "correctOption": "Vitamin D"
+        },
+        {
+            "question": "Which nerve is responsible for transmitting visual information from the eye to the brain?",
+            "wrongOptions": [
+                "Vagus nerve",
+                "Facial nerve",
+                "Auditory nerve"
+            ],
+            "correctOption": "Optic nerve"
+        },
+        {
+            "question": "Which part of the brain is involved in memory formation?",
+            "wrongOptions": [
+                "Cerebellum",
+                "Medulla oblongata",
+                "Thalamus"
+            ],
+            "correctOption": "Hippocampus"
+        },
+        {
+            "question": "What is the primary function of the endocrine system?",
+            "wrongOptions": [
+                "Protect the body from infections",
+                "Pump blood throughout the body",
+                "Digest food"
+            ],
+            "correctOption": "Regulate hormones"
+        },
+        {
+            "question": "Which disease is caused by a lack of vitamin C?",
+            "wrongOptions": [
+                "Rickets",
+                "Beriberi",
+                "Pellagra"
+            ],
+            "correctOption": "Scurvy"
+        },
+        {
+            "question": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+            "wrongOptions": [
+                "Pulmonary artery",
+                "Aorta",
+                "Vena cava"
+            ],
+            "correctOption": "Pulmonary vein"
+        },
+        {
+            "question": "Which organ is primarily affected by hepatitis?",
+            "wrongOptions": [
+                "Kidneys",
+                "Lungs",
+                "Heart"
+            ],
+            "correctOption": "Liver"
+        },
+        {
+            "question": "Which condition is characterized by the buildup of fluid in the lungs?",
+            "wrongOptions": [
+                "Bronchitis",
+                "Asthma",
+                "Pulmonary embolism"
+            ],
+            "correctOption": "Pulmonary edema"
+        },
+        {
+            "question": "What is the common name for the scapula?",
+            "wrongOptions": [
+                "Jawbone",
+                "Shinbone",
+                "Rib"
+            ],
+            "correctOption": "Shoulder blade"
+        },
+        {
+            "question": "Which type of blood vessel is responsible for nutrient and gas exchange?",
+            "wrongOptions": [
+                "Arteries",
+                "Veins",
+                "Arterioles"
+            ],
+            "correctOption": "Capillaries"
+        },
+        {
+            "question": "Which hormone is primarily responsible for the fight-or-flight response?",
+            "wrongOptions": [
+                "Insulin",
+                "Estrogen",
+                "Melatonin"
+            ],
+            "correctOption": "Adrenaline"
+        },
+        {
+            "question": "Which vitamin helps the body absorb calcium?",
+            "wrongOptions": [
+                "Vitamin C",
+                "Vitamin E",
+                "Vitamin A"
+            ],
+            "correctOption": "Vitamin D"
+        },
+        {
+            "question": "Which part of the brain regulates hunger and thirst?",
+            "wrongOptions": [
+                "Cerebellum",
+                "Medulla",
+                "Cerebrum"
+            ],
+            "correctOption": "Hypothalamus"
+        },
+        {
+            "question": "Which condition is characterized by an overactive thyroid gland?",
+            "wrongOptions": [
+                "Hypothyroidism",
+                "Goiter",
+                "Addison's disease"
+            ],
+            "correctOption": "Hyperthyroidism"
+        },
+        {
+            "question": "What is the primary function of the small intestine?",
+            "wrongOptions": [
+                "Store bile",
+                "Absorb water",
+                "Produce enzymes"
+            ],
+            "correctOption": "Absorb nutrients"
+        },
+        {
+            "question": "Which part of the human skeleton protects the brain?",
+            "wrongOptions": [
+                "Ribcage",
+                "Vertebral column",
+                "Pelvis"
+            ],
+            "correctOption": "Skull"
+        },
+        {
+            "question": "Which hormone is responsible for regulating blood sugar levels?",
+            "wrongOptions": [
+                "Adrenaline",
+                "Cortisol",
+                "Thyroxine"
+            ],
+            "correctOption": "Insulin"
+        },
+        {
+            "question": "What is the medical term for low blood sugar?",
+            "wrongOptions": [
+                "Hyperglycemia",
+                "Hypertension",
+                "Hypokalemia"
+            ],
+            "correctOption": "Hypoglycemia"
+        },
+        {
+            "question": "Which type of cell is primarily involved in the immune response?",
+            "wrongOptions": [
+                "Red blood cells",
+                "Platelets",
+                "Neurons"
+            ],
+            "correctOption": "White blood cells"
+        },
+        {
+            "question": "Which organ is responsible for regulating body temperature?",
+            "wrongOptions": [
+                "Heart",
+                "Lungs",
+                "Kidneys"
+            ],
+            "correctOption": "Skin"
+        },
+        {
+            "question": "Which part of the digestive system is responsible for storing bile?",
+            "wrongOptions": [
+                "Liver",
+                "Pancreas",
+                "Small intestine"
+            ],
+            "correctOption": "Gallbladder"
+        },
+        {
+            "question": "Which vitamin deficiency can lead to night blindness?",
+            "wrongOptions": [
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin K"
+            ],
+            "correctOption": "Vitamin A"
+        },
+        {
+            "question": "Which condition is characterized by the inflammation of the appendix?",
+            "wrongOptions": [
+                "Gastritis",
+                "Hepatitis",
+                "Diverticulitis"
+            ],
+            "correctOption": "Appendicitis"
+        },
+        {
+            "question": "Which part of the human body has the highest concentration of bones?",
+            "wrongOptions": [
+                "Skull",
+                "Spine",
+                "Ribcage"
+            ],
+            "correctOption": "Hands"
+        },
+        {
+            "question": "Which part of the eye focuses light onto the retina?",
+            "wrongOptions": [
+                "Cornea",
+                "Iris",
+                "Sclera"
+            ],
+            "correctOption": "Lens"
+        },
+        {
+            "question": "What is the common term for the thoracic vertebrae?",
+            "wrongOptions": [
+                "Lower back",
+                "Neck",
+                "Tailbone"
+            ],
+            "correctOption": "Mid-back"
+        },
+        {
+            "question": "Which gland is responsible for producing adrenaline?",
+            "wrongOptions": [
+                "Thyroid gland",
+                "Pituitary gland",
+                "Pineal gland"
+            ],
+            "correctOption": "Adrenal gland"
+        },
+        {
+            "question": "Which condition is caused by the buildup of uric acid in the joints?",
+            "wrongOptions": [
+                "Arthritis",
+                "Scoliosis",
+                "Osteoporosis"
+            ],
+            "correctOption": "Gout"
+        },
+        {
+            "question": "Which organ is primarily responsible for breaking down alcohol in the body?",
+            "wrongOptions": [
+                "Kidneys",
+                "Pancreas",
+                "Lungs"
+            ],
+            "correctOption": "Liver"
+        },
+        {
+            "question": "Which condition is characterized by the loss of peripheral vision?",
+            "wrongOptions": [
+                "Cataracts",
+                "Macular degeneration",
+                "Leukemia"
+            ],
+            "correctOption": "Glaucoma"
+        },
+        {
+            "question": "Which blood cell type is responsible for carrying oxygen?",
+            "wrongOptions": [
+                "White blood cells",
+                "Platelets",
+                "Plasma cells"
+            ],
+            "correctOption": "Red blood cells"
+        },
+        {
+            "question": "Which condition is commonly treated with insulin?",
+            "wrongOptions": [
+                "Osteoporosis",
+                "Hypertension",
+                "Asthma"
+            ],
+            "correctOption": "Diabetes"
+        },
+        {
+            "question": "Which organ is responsible for producing digestive enzymes?",
+            "wrongOptions": [
+                "Liver",
+                "Gallbladder",
+                "Spleen"
+            ],
+            "correctOption": "Pancreas"
+        },
+        {
+            "question": "What is the primary function of hemoglobin?",
+            "wrongOptions": [
+                "Fight infections",
+                "Clot blood",
+                "Store fat"
+            ],
+            "correctOption": "Transport oxygen"
+        },
+        {
+            "question": "Which condition is characterized by the abnormal growth of bone tissue?",
+            "wrongOptions": [
+                "Scoliosis",
+                "Rickets",
+                "Osteoma"
+            ],
+            "correctOption": "Osteoma"
+        },
+        {
+            "question": "Which type of joint is found in the elbow?",
+            "wrongOptions": [
+                "Ball-and-socket joint",
+                "Saddle joint",
+                "Gliding joint"
+            ],
+            "correctOption": "Hinge joint"
+        },
+        {
+            "question": "Which blood vessel is the largest in the human body?",
+            "wrongOptions": [
+                "Vena cava",
+                "Pulmonary artery",
+                "Jugular vein"
+            ],
+            "correctOption": "Aorta"
+        },
+        {
+            "question": "Which vitamin deficiency can lead to anemia?",
+            "wrongOptions": [
+                "Vitamin D",
+                "Vitamin K",
+                "Vitamin A"
+            ],
+            "correctOption": "Vitamin B12"
+        },
+        {
+            "question": "Which condition is characterized by the inflammation of the bronchial tubes?",
+            "wrongOptions": [
+                "Asthma",
+                "Pneumonia",
+                "Tuberculosis"
+            ],
+            "correctOption": "Bronchitis"
+        },
+        {
+            "question": "Which organ is responsible for filtering toxins from the blood?",
+            "wrongOptions": [
+                "Kidneys",
+                "Spleen",
+                "Gallbladder"
+            ],
+            "correctOption": "Liver"
+        },
+        {
+            "question": "Which muscle group is located at the back of the thigh?",
+            "wrongOptions": [
+                "Quadriceps",
+                "Calf muscles",
+                "Gluteal muscles"
+            ],
+            "correctOption": "Hamstrings"
+        },
+        {
+            "question": "Which organ system is responsible for producing hormones?",
+            "wrongOptions": [
+                "Respiratory system",
+                "Circulatory system",
+                "Digestive system"
+            ],
+            "correctOption": "Endocrine system"
+        },
+        {
+            "question": "Which condition is characterized by the narrowing of the arteries?",
+            "wrongOptions": [
+                "Hypertension",
+                "Arrhythmia",
+                "Thrombosis"
+            ],
+            "correctOption": "Atherosclerosis"
+        },
+        {
+            "question": "Which part of the nervous system controls involuntary actions like breathing?",
+            "wrongOptions": [
+                "Cerebral cortex",
+                "Cerebellum",
+                "Somatic nervous system"
+            ],
+            "correctOption": "Autonomic nervous system"
+        },
+        {
+            "question": "Which hormone is produced by the pineal gland?",
+            "wrongOptions": [
+                "Cortisol",
+                "Oxytocin",
+                "Adrenaline"
+            ],
+            "correctOption": "Melatonin"
+        },
+        {
+            "question": "Which type of muscle is found in the walls of blood vessels?",
+            "wrongOptions": [
+                "Skeletal muscle",
+                "Cardiac muscle",
+                "Striated muscle"
+            ],
+            "correctOption": "Smooth muscle"
+        },
+        {
+            "question": "Which vitamin is important for blood clotting?",
+            "wrongOptions": [
+                "Vitamin C",
+                "Vitamin D",
+                "Vitamin A"
+            ],
+            "correctOption": "Vitamin K"
+        },
+        {
+            "question": "What is the main protein found in hair and nails?",
+            "wrongOptions": [
+                "Collagen",
+                "Elastin",
+                "Hemoglobin"
+            ],
+            "correctOption": "Keratin"
+        },
+        {
+            "question": "Which organ is responsible for producing digestive enzymes and insulin?",
+            "wrongOptions": [
+                "Liver",
+                "Gallbladder",
+                "Spleen"
+            ],
+            "correctOption": "Pancreas"
+        },
+        {
+            "question": "Which part of the blood carries nutrients, hormones, and proteins?",
+            "wrongOptions": [
+                "Red blood cells",
+                "Platelets",
+                "White blood cells"
+            ],
+            "correctOption": "Plasma"
+        },
+        {
+            "question": "Which part of the nervous system controls the fight-or-flight response?",
+            "wrongOptions": [
+                "Central nervous system",
+                "Parasympathetic nervous system",
+                "Spinal cord"
+            ],
+            "correctOption": "Sympathetic nervous system"
+        },
+        {
+            "question": "Which structure in the cell is responsible for producing energy?",
+            "wrongOptions": [
+                "Nucleus",
+                "Ribosome",
+                "Golgi apparatus"
+            ],
+            "correctOption": "Mitochondria"
+        },
+        {
+            "question": "Which condition is characterized by the body’s inability to produce enough thyroid hormones?",
+            "wrongOptions": [
+                "Hyperthyroidism",
+                "Cushing's syndrome",
+                "Hypoglycemia"
+            ],
+            "correctOption": "Hypothyroidism"
+        },
+        {
+            "question": "Which vitamin is essential for the formation of collagen?",
+            "wrongOptions": [
+                "Vitamin D",
+                "Vitamin K",
+                "Vitamin B12"
+            ],
+            "correctOption": "Vitamin C"
+        },
+        {
+            "question": "Which mineral is crucial for maintaining a healthy heart rhythm?",
+            "wrongOptions": [
+                "Iron",
+                "Sodium",
+                "Zinc"
+            ],
+            "correctOption": "Potassium"
+        },
+        {
+            "question": "Which type of cell is primarily involved in bone resorption?",
+            "wrongOptions": [
+                "Osteoblasts",
+                "Chondrocytes",
+                "Fibroblasts"
+            ],
+            "correctOption": "Osteoclasts"
+        },
+        {
+            "question": "Which component of the eye provides sharp central vision?",
+            "wrongOptions": [
+                "Iris",
+                "Lens",
+                "Optic nerve"
+            ],
+            "correctOption": "Macula"
+        },
+        {
+            "question": "Which part of the immune system targets specific pathogens?",
+            "wrongOptions": [
+                "Innate immunity",
+                "Skin",
+                "Mucus"
+            ],
+            "correctOption": "Adaptive immunity"
+        },
+        {
+            "question": "Which neurotransmitter is primarily responsible for mood regulation?",
+            "wrongOptions": [
+                "Dopamine",
+                "Adrenaline",
+                "Acetylcholine"
+            ],
+            "correctOption": "Serotonin"
+        },
+        {
+            "question": "Which part of the body is affected by glaucoma?",
+            "wrongOptions": [
+                "Lungs",
+                "Liver",
+                "Kidneys"
+            ],
+            "correctOption": "Eyes"
+        },
+        {
+            "question": "Which part of the digestive system absorbs most of the nutrients?",
+            "wrongOptions": [
+                "Stomach",
+                "Large intestine",
+                "Esophagus"
+            ],
+            "correctOption": "Small intestine"
+        },
+        {
+            "question": "Which organ system is primarily responsible for producing hormones?",
+            "wrongOptions": [
+                "Nervous system",
+                "Skeletal system",
+                "Digestive system"
+            ],
+            "correctOption": "Endocrine system"
+        },
+        {
+            "question": "Which condition is caused by a deficiency of vitamin B1?",
+            "wrongOptions": [
+                "Scurvy",
+                "Rickets",
+                "Pellagra"
+            ],
+            "correctOption": "Beriberi"
+        },
+        {
+            "question": "Which structure in the cell is responsible for protein synthesis?",
+            "wrongOptions": [
+                "Mitochondria",
+                "Lysosome",
+                "Golgi apparatus"
+            ],
+            "correctOption": "Ribosome"
+        },
+        {
+            "question": "Which bone is the longest in the human body?",
+            "wrongOptions": [
+                "Humerus",
+                "Tibia",
+                "Fibula"
+            ],
+            "correctOption": "Femur"
+        },
+        {
+            "question": "Which condition is caused by excessive sun exposure?",
+            "wrongOptions": [
+                "Eczema",
+                "Psoriasis",
+                "Vitiligo"
+            ],
+            "correctOption": "Sunburn"
+        },
+        {
+            "question": "Which type of tissue connects muscles to bones?",
+            "wrongOptions": [
+                "Ligaments",
+                "Cartilage",
+                "Fascia"
+            ],
+            "correctOption": "Tendons"
+        },
+        {
+            "question": "Which part of the brain is responsible for speech production?",
+            "wrongOptions": [
+                "Cerebellum",
+                "Occipital lobe",
+                "Parietal lobe"
+            ],
+            "correctOption": "Broca’s area"
+        },
+        {
+            "question": "Which type of muscle is found in the walls of the heart?",
+            "wrongOptions": [
+                "Skeletal muscle",
+                "Smooth muscle",
+                "Striated muscle"
+            ],
+            "correctOption": "Cardiac muscle"
+        },
+        {
+            "question": "Which part of the respiratory system is also known as the voice box?",
+            "wrongOptions": [
+                "Trachea",
+                "Pharynx",
+                "Bronchi"
+            ],
+            "correctOption": "Larynx"
+        },
+        {
+            "question": "Which condition is characterized by the narrowing of the airways in the lungs?",
+            "wrongOptions": [
+                "Emphysema",
+                "Pneumonia",
+                "Tuberculosis"
+            ],
+            "correctOption": "Asthma"
+        },
+        {
+            "question": "Which part of the circulatory system is responsible for carrying oxygen-poor blood to the lungs?",
+            "wrongOptions": [
+                "Aorta",
+                "Pulmonary vein",
+                "Capillaries"
+            ],
+            "correctOption": "Pulmonary artery"
+        },
+        {
+            "question": "Which blood cells are primarily responsible for clotting?",
+            "wrongOptions": [
+                "Red blood cells",
+                "White blood cells",
+                "Lymphocytes"
+            ],
+            "correctOption": "Platelets"
+        },
+        {
+            "question": "Which part of the brain is associated with emotion and behavior?",
+            "wrongOptions": [
+                "Cerebellum",
+                "Frontal lobe",
+                "Occipital lobe"
+            ],
+            "correctOption": "Limbic system"
+        },
+        {
+            "question": "Which condition is characterized by the immune system attacking the body’s own tissues?",
+            "wrongOptions": [
+                "Diabetes",
+                "Asthma",
+                "Hypothyroidism"
+            ],
+            "correctOption": "Autoimmune disease"
+        },
+        {
+            "question": "Which enzyme is responsible for breaking down lactose in the small intestine?",
+            "wrongOptions": [
+                "Amylase",
+                "Pepsin",
+                "Maltase"
+            ],
+            "correctOption": "Lactase"
+        },
+        {
+            "question": "Which condition is characterized by a decrease in red blood cells or hemoglobin?",
+            "wrongOptions": [
+                "Leukemia",
+                "Hemophilia",
+                "Thrombosis"
+            ],
+            "correctOption": "Anemia"
+        },
+        {
+            "question": "Which gland is responsible for regulating calcium levels in the blood?",
+            "wrongOptions": [
+                "Thyroid gland",
+                "Adrenal gland",
+                "Pituitary gland"
+            ],
+            "correctOption": "Parathyroid gland"
+        },
+        {
+            "question": "Which part of the body produces the majority of digestive enzymes?",
+            "wrongOptions": [
+                "Stomach",
+                "Liver",
+                "Gallbladder"
+            ],
+            "correctOption": "Pancreas"
+        },
+        {
+            "question": "Which part of the brain is primarily involved in vision?",
+            "wrongOptions": [
+                "Temporal lobe",
+                "Frontal lobe",
+                "Parietal lobe"
+            ],
+            "correctOption": "Occipital lobe"
+        },
+        {
+            "question": "Which mineral is essential for healthy teeth and bones?",
+            "wrongOptions": [
+                "Iron",
+                "Magnesium",
+                "Sodium"
+            ],
+            "correctOption": "Calcium"
+        },
+        {
+            "question": "Which condition is a result of the buildup of uric acid crystals in the joints?",
+            "wrongOptions": [
+                "Arthritis",
+                "Osteoporosis",
+                "Rheumatism"
+            ],
+            "correctOption": "Gout"
+        },
+        {
+            "question": "Which part of the eye adjusts the size of the pupil to control the amount of light entering?",
+            "wrongOptions": [
+                "Lens",
+                "Cornea",
+                "Retina"
+            ],
+            "correctOption": "Iris"
+        },
+        {
+            "question": "Which organ is responsible for filtering and purifying the blood?",
+            "wrongOptions": [
+                "Lungs",
+                "Liver",
+                "Pancreas"
+            ],
+            "correctOption": "Kidneys"
+        },
+        {
+            "question": "Which hormone is produced by the pineal gland and regulates sleep-wake cycles?",
+            "wrongOptions": [
+                "Serotonin",
+                "Dopamine",
+                "Cortisol"
+            ],
+            "correctOption": "Melatonin"
+        },
+        {
+            "question": "Which type of joint is found in the shoulder and hip?",
+            "wrongOptions": [
+                "Hinge joint",
+                "Pivot joint",
+                "Saddle joint"
+            ],
+            "correctOption": "Ball-and-socket joint"
+        },
+        {
+            "question": "Which part of the immune system produces antibodies?",
+            "wrongOptions": [
+                "T-cells",
+                "Macrophages",
+                "Neutrophils"
+            ],
+            "correctOption": "B-cells"
+        },
+        {
+            "question": "Which condition is caused by the human papillomavirus (HPV)?",
+            "wrongOptions": [
+                "Chickenpox",
+                "Shingles",
+                "Hepatitis B"
+            ],
+            "correctOption": "Cervical cancer"
+        },
+        {
+            "question": "Which organ stores and concentrates bile produced by the liver?",
+            "wrongOptions": [
+                "Pancreas",
+                "Stomach",
+                "Spleen"
+            ],
+            "correctOption": "Gallbladder"
+        },
+        {
+            "question": "Which type of white blood cell is involved in allergic reactions?",
+            "wrongOptions": [
+                "Neutrophils",
+                "Macrophages",
+                "Monocytes"
+            ],
+            "correctOption": "Eosinophils"
+        },
+        {
+            "question": "Which hormone regulates blood sugar levels by facilitating glucose uptake into cells?",
+            "wrongOptions": [
+                "Glucagon",
+                "Cortisol",
+                "Adrenaline"
+            ],
+            "correctOption": "Insulin"
+        },
+        {
+            "question": "Which part of the brain controls balance and coordination?",
+            "wrongOptions": [
+                "Medulla oblongata",
+                "Hypothalamus",
+                "Cerebrum"
+            ],
+            "correctOption": "Cerebellum"
+        },
+        {
+            "question": "Which condition is caused by the overproduction of cortisol by the adrenal glands?",
+            "wrongOptions": [
+                "Addison's disease",
+                "Hashimoto's thyroiditis",
+                "Graves' disease"
+            ],
+            "correctOption": "Cushing's syndrome"
+        },
+        {
+            "question": "Which part of the immune system is the first line of defense against pathogens?",
+            "wrongOptions": [
+                "Adaptive immunity",
+                "T-cells",
+                "B-cells"
+            ],
+            "correctOption": "Innate immunity"
+        },
+        {
+            "question": "Which condition is characterized by the abnormal curvature of the spine?",
+            "wrongOptions": [
+                "Osteoarthritis",
+                "Herniated disc",
+                "Spondylitis"
+            ],
+            "correctOption": "Scoliosis"
+        },
+        {
+            "question": "Which enzyme breaks down fats into fatty acids and glycerol?",
+            "wrongOptions": [
+                "Pepsin",
+                "Amylase",
+                "Protease"
+            ],
+            "correctOption": "Lipase"
+        },
+        {
+            "question": "Which type of blood vessel carries blood away from the heart?",
+            "wrongOptions": [
+                "Veins",
+                "Capillaries",
+                "Venules"
+            ],
+            "correctOption": "Arteries"
+        },
+        {
+            "question": "Which condition is caused by the insufficient production of insulin?",
+            "wrongOptions": [
+                "Anemia",
+                "Hypothyroidism",
+                "Pancreatitis"
+            ],
+            "correctOption": "Diabetes mellitus"
+        },
+        {
+            "question": "Which part of the nervous system is responsible for involuntary actions like heartbeat and digestion?",
+            "wrongOptions": [
+                "Somatic nervous system",
+                "Central nervous system",
+                "Spinal cord"
+            ],
+            "correctOption": "Autonomic nervous system"
+        },
+        {
+            "question": "Which hormone triggers the release of glucose from the liver when blood sugar levels are low?",
+            "wrongOptions": [
+                "Insulin",
+                "Adrenaline",
+                "Thyroxine"
+            ],
+            "correctOption": "Glucagon"
+        },
+        {
+            "question": "Which vitamin is important for blood clotting?",
+            "wrongOptions": [
+                "Vitamin C",
+                "Vitamin E",
+                "Vitamin B6"
+            ],
+            "correctOption": "Vitamin K"
+        },
+        {
+            "question": "Which part of the ear is responsible for converting sound waves into electrical signals?",
+            "wrongOptions": [
+                "Eardrum",
+                "Ossicles",
+                "Eustachian tube"
+            ],
+            "correctOption": "Cochlea"
+        },
+        {
+            "question": "Which condition is characterized by inflammation of the joints?",
+            "wrongOptions": [
+                "Osteoporosis",
+                "Muscular dystrophy",
+                "Scoliosis"
+            ],
+            "correctOption": "Arthritis"
+        },
+        {
+            "question": "Which structure in the eye changes shape to focus light on the retina?",
+            "wrongOptions": [
+                "Cornea",
+                "Iris",
+                "Vitreous humor"
+            ],
+            "correctOption": "Lens"
+        },
+        {
+            "question": "Which mineral is a key component of hemoglobin in red blood cells?",
+            "wrongOptions": [
+                "Calcium",
+                "Magnesium",
+                "Zinc"
+            ],
+            "correctOption": "Iron"
+        },
+        {
+            "question": "Which part of the skin produces melanin, the pigment responsible for skin color?",
+            "wrongOptions": [
+                "Dermis",
+                "Epidermis",
+                "Hypodermis"
+            ],
+            "correctOption": "Melanocytes"
+        },
+        {
+            "question": "Which organ is primarily responsible for detoxifying chemicals and metabolizing drugs?",
+            "wrongOptions": [
+                "Kidneys",
+                "Lungs",
+                "Spleen"
+            ],
+            "correctOption": "Liver"
+        },
+        {
+            "question": "Which condition is characterized by the loss of bone density, increasing the risk of fractures?",
+            "wrongOptions": [
+                "Arthritis",
+                "Fibromyalgia",
+                "Scoliosis"
+            ],
+            "correctOption": "Osteoporosis"
+        },
+        {
+            "question": "Which vitamin is synthesized by the body when exposed to sunlight?",
+            "wrongOptions": [
+                "Vitamin C",
+                "Vitamin A",
+                "Vitamin E"
+            ],
+            "correctOption": "Vitamin D"
+        },
+        {
+            "question": "Which type of blood cell is primarily involved in defending the body against infection?",
+            "wrongOptions": [
+                "Red blood cells",
+                "Platelets",
+                "Lymph"
+            ],
+            "correctOption": "White blood cells"
+        },
+        {
+            "question": "Which enzyme is responsible for breaking down proteins in the stomach?",
+            "wrongOptions": [
+                "Amylase",
+                "Lipase",
+                "Lactase"
+            ],
+            "correctOption": "Pepsin"
+        },
+        {
+            "question": "Which structure in the respiratory system is responsible for gas exchange?",
+            "wrongOptions": [
+                "Trachea",
+                "Bronchi",
+                "Larynx"
+            ],
+            "correctOption": "Alveoli"
+        },
+        {
+            "question": "Which hormone is known as the 'stress hormone'?",
+            "wrongOptions": [
+                "Adrenaline",
+                "Insulin",
+                "Melatonin"
+            ],
+            "correctOption": "Cortisol"
+        },
+        {
+            "question": "Which part of the kidney filters blood to form urine?",
+            "wrongOptions": [
+                "Ureter",
+                "Bladder",
+                "Calyx"
+            ],
+            "correctOption": "Nephron"
+        },
+        {
+            "question": "Which type of connective tissue stores fat in the body?",
+            "wrongOptions": [
+                "Cartilage",
+                "Tendon",
+                "Ligament"
+            ],
+            "correctOption": "Adipose tissue"
+        },
+        {
+            "question": "Which vitamin is essential for maintaining healthy vision and skin?",
+            "wrongOptions": [
+                "Vitamin B12",
+                "Vitamin K",
+                "Vitamin E"
+            ],
+            "correctOption": "Vitamin A"
+        }
+    ]
+}

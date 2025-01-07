@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Case Study 1</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link active" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+    <p class="HeadText">Case Study 1: AI-Powered Management of Type 1 Diabetes at Stanford University</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/artificial-intelligence-chip.png')  }}" class="museum-image"
+            style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText">
+        <b>Background:</b>
+        Type 1 diabetes (T1D) is a chronic condition where the body’s immune system attacks insulin-producing cells in
+        the pancreas, leading to high blood sugar levels. Managing T1D requires continuous monitoring of blood glucose
+        levels, regular insulin administration, and lifestyle adjustments. Traditional management is labor-intensive and
+        often prone to human error, especially in analyzing glucose data to adjust treatment plans.
+        <br><br>
+        <b>Study Overview:</b>
+        Stanford University aimed to enhance T1D management by integrating artificial intelligence (AI) with continuous
+        glucose monitoring (CGM) technology. They developed an AI-powered data dashboard that automatically processes
+        and ranks patient data to identify those who require immediate intervention. The study included a diverse
+        patient population, with particular attention to ensuring equitable access to this advanced technology.
+        <br><br>
+        <b>Implementation:</b>
+        The AI dashboard was designed in collaboration with Stanford's systems design experts and healthcare providers.
+        The system aggregated data from various CGM devices into a unified platform. Using machine learning algorithms,
+        it evaluated the data to identify trends such as low glucose readings, poor CGM adherence, and deviations from
+        target glucose ranges. Patients flagged by the system received prioritized outreach from diabetes educators, who
+        then tailored interventions based on individual needs.
+        <br><br>
+        <b>Results:</b>
+        The implementation of the AI dashboard resulted in a significant improvement in patient outcomes. Before the AI
+        tool was introduced, only 28% of newly diagnosed T1D patients reached their target A1c levels (a measure of
+        average blood glucose over three months) within a year. After the introduction of the dashboard, this figure
+        increased to 64%. Moreover, the system reduced the incidence of dangerously high A1c levels, which dropped
+        significantly among the study participants.
+        <br><br>
+        The dashboard also improved the efficiency of healthcare providers. Previously, diabetes educators spent a
+        considerable amount of time manually sifting through data from different CGM platforms. The AI system automated
+        this process, allowing educators to focus more on patient care. The result was a more responsive and effective
+        management strategy that helped patients maintain better glucose control with fewer clinic visits.
+        <br><br>
+        <b>Conclusion:</b>
+        This case study demonstrates the potential of AI to transform chronic disease management by enhancing the
+        accuracy and efficiency of care. The success of Stanford’s approach highlights the importance of integrating AI
+        with existing medical technology to improve patient outcomes and healthcare delivery. The study’s focus on
+        equity ensures that advancements in technology benefit all patient groups, regardless of socioeconomic status or
+        language barriers​(
+        MedXpress
+        ).
+    </p>
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

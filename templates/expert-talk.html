@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Expert Talk</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            width: 30%;
+            height: 250px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link active" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+
+    <p class="HeadText" style="font-size: 4rem;">Interviews with Medical Experts</p>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="/expert-talk/interview-of-emily-chen-ai-researcher"><img src="static/IMG/artificial-intelligence-chip.png"></a>
+            <p>Interview 1: Interview of Emily Chen, AI researcher</p>
+        </div>
+        <div class="grid-item">
+            <a href="/expert-talk/interview-of-dr-james-patel-oncologist"><img src="static/IMG/oncology.png"></a>
+            <p>Interview 2: Interview of Dr. James Patel, Oncologist</p>
+        </div>
+        <div class="grid-item">
+            <a href="/expert-talk/interview-with-sarah-johnson-healthcare-technology-advocate"><img src="static/IMG/medkit.png"></a>
+            <p>Interview 3: Interview with Sarah Johnson, Healthcare Technology Advocate</p>
+        </div>
+        <div class="grid-item">
+            <a href="/expert-talk/interview-with-dr-marcus-lee-clinical-data-scientist"><img src="static/IMG/telemedicine.png"></a>
+            <p>Interview 4: Interview with Dr. Marcus Lee, Clinical Data Scientist</p>
+        </div>
+        <div class="grid-item">
+            <a href="/expert-talk/interview-with-dr-laura-nguyen-ai-in-healthcare-startup-founder"><img src="static/IMG/dna.png"></a>
+            <p>Interview 5: Interview with Dr. Laura Nguyen, AI in Healthcare Startup Founder</p>
+        </div>
+        <div class="grid-item">
+            <a href="/expert-talk/interview-with-dr-ava-richards-medical-ai-ethicist"><img src="static/IMG/sterilization.png"></a>
+            <p>Interview 6: Interview with Dr. Ava Richard: Medical AI ethicist</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

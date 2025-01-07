@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Reviews</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link active" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">Reviews</p>
+
+  <div class="AiInput">
+    <div class="InputHolder">
+      <input id="input" placeholder="Send a Review!"></input>
+      <button id="input-submit" style="position: relative; left:20px;">Send</button>
+    </div>
+  </div>
+
+  <div class="star-rating">
+    <input type="radio" id="1-star" name="rating" value="1" />
+    <label for="1-star" class="star">&#9733;</label>
+    <input type="radio" id="2-stars" name="rating" value="2" />
+    <label for="2-stars" class="star">&#9733;</label>
+    <input type="radio" id="3-stars" name="rating" value="3" />
+    <label for="3-stars" class="star">&#9733;</label>
+    <input type="radio" id="4-stars" name="rating" value="4" />
+    <label for="4-stars" class="star">&#9733;</label>
+    <input type="radio" id="5-stars" name="rating" value="5" />
+    <label for="5-stars" class="star">&#9733;</label>
+  </div>
+
+  <p class="DescText" id="averageReview">/5</p>
+
+  <div id="review-list" class="grid-container"></div>
+
+  <script src="{{ url_for('static', filename='JS/reviews.js')  }}"></script>
+  <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .star-rating {
+      display: inline-block;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .star {
+      font-size: 36px;
+      color: #ccc;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      transition: 0.3s;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    .star:hover,
+    .star:hover~.star {
+      color: #f5b301;
+    }
+
+    input[name="rating"]:checked~.star {
+      color: #f5b301;
+    }
+
+    input[name="rating"]:checked~.star~.star {
+      color: #ccc;
+    }
+
+    .star:hover~input[type="radio"]~.star {
+      color: #f5b301;
+    }
+
+    input[name="rating"]:checked~label {
+      color: #f5b301;
+    }
+
+    input[name="rating"]:checked~label~label {
+      color: #f5b301;
+    }
+
+    input[name="rating"]:checked~label~input[type="radio"]~label {
+      color: #ccc;
+    }
+
+    @media (min-width: 1400px) {
+      .star-rating {
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    }
+  </style>
+</body>
+
+</html>

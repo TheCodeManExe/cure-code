@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - CRISPR-Cas9</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link active" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">CRISPR-Cas9</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/dna.png')  }}" class="museum-image"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText">
+        <b>CRISPR-Cas9</b> is a revolutionary tool for genetic engineering that allows scientists to make precise
+        changes to the DNA of living organisms. The technology is based on a natural defense mechanism found in
+        bacteria, where CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) sequences and associated Cas
+        (CRISPR-associated) proteins work together to detect and destroy viral DNA. This system has been adapted for use
+        in genetic research and biotechnology.<br><br>
+
+        <b>History:</b> The CRISPR-Cas9 system was first discovered in the 1980s, but it wasn't until 2012 that
+        scientists Jennifer Doudna and Emmanuelle Charpentier published a paper demonstrating its potential for targeted
+        gene editing in other organisms. Their work, which earned them the 2020 Nobel Prize in Chemistry, showcased how
+        the system could be engineered to cut specific DNA sequences, paving the way for a wide range of applications in
+        genetics and medicine.<br><br>
+
+        <b>How CRISPR-Cas9 works:</b> The CRISPR-Cas9 system consists of two main components: the Cas9 protein and a
+        guide RNA (gRNA). The gRNA is designed to match a specific DNA sequence in the target gene. Once the gRNA binds
+        to its target DNA sequence, the Cas9 protein introduces a double-strand break at that location. The cell's
+        natural repair mechanisms then attempt to fix the break, during which scientists can introduce new genetic
+        material or modify the existing sequence to achieve the desired outcome.<br><br>
+
+        <b>Applications:</b> CRISPR-Cas9 has a wide range of applications in research, medicine, and agriculture. In
+        research, it allows scientists to create genetically modified organisms to study gene function and disease
+        mechanisms. In medicine, CRISPR-Cas9 holds promise for treating genetic disorders such as cystic fibrosis,
+        sickle cell anemia, and muscular dystrophy by correcting faulty genes. In agriculture, it is used to develop
+        crops with improved traits, such as resistance to pests or enhanced nutritional content.<br><br>
+
+        <b>Ethical considerations:</b> While CRISPR-Cas9 presents exciting possibilities, it also raises ethical
+        concerns, particularly regarding its use in human germline editing. Editing the genes of embryos or reproductive
+        cells can have far-reaching implications for future generations and raise questions about safety, consent, and
+        the potential for creating so-called "designer babies." As the technology continues to advance, ongoing
+        discussions and regulations are needed to address these issues and ensure responsible use.<br><br>
+
+        <b>Future prospects:</b> The CRISPR-Cas9 technology is still evolving, with ongoing research aimed at improving
+        its precision and reducing unintended effects. Advances in this field may lead to more effective therapies for a
+        range of genetic conditions, as well as innovations in other areas such as synthetic biology and environmental
+        conservation. As researchers explore new applications and refine the technology, CRISPR-Cas9 is likely to remain
+        a cornerstone of modern genetic research and biotechnology.
+
+    </p>
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

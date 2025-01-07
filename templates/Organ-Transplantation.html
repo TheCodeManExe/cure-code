@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Organ Transplantation</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link active" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">Organ Transplantation</p>
+  <p class="SubHeadText"></p>
+  <img src="{{ url_for('static', filename='IMG/organ-transplant.png')  }}" class="museum-image"
+    style="display: block; margin-left: auto; margin-right: auto;">
+  <p class="DescText">
+    <b>Organ transplantation</b> is a medical procedure in which a damaged or failing organ is replaced with a healthy
+    organ from a donor. This procedure is often a life-saving intervention for patients with severe organ failure due to
+    conditions such as heart disease, kidney failure, liver cirrhosis, or lung diseases. Organ transplantation has
+    transformed modern medicine, offering a second chance at life for many patients who would otherwise have limited
+    treatment options.<br><br>
+
+    <b>History:</b> The concept of organ transplantation has roots in ancient mythology, but it wasn’t until the 20th
+    century that successful transplants became a reality. The first successful kidney transplant was performed in 1954
+    by Dr. Joseph Murray, for which he later received the Nobel Prize. This groundbreaking operation was made possible
+    by using an identical twin as the donor, which minimized the risk of organ rejection. The development of
+    immunosuppressive drugs, particularly in the 1960s and 1970s, allowed for the transplantation of organs between
+    non-related individuals, greatly expanding the possibilities of organ transplantation.<br><br>
+
+    <b>How organ transplantation works:</b> The transplantation process involves several steps. First, a suitable donor
+    organ must be identified. Donors can be living (in cases such as kidney or liver donation) or deceased. The donor
+    organ is then surgically removed and transported to the recipient, who is prepared for the transplant. The
+    transplant surgery involves connecting the donor organ to the recipient’s blood vessels and other necessary
+    structures. After the surgery, the recipient must take immunosuppressive medications to prevent the body’s immune
+    system from rejecting the new organ, which it may recognize as foreign.<br><br>
+
+    <b>Types of organ transplants:</b> Several organs can be transplanted, including the kidneys, liver, heart, lungs,
+    pancreas, and intestines. <b>Kidney transplants</b> are the most common, as the human body can function with just
+    one kidney, making it possible for living donors to donate one of their kidneys. <b>Liver transplants</b> are also
+    common, and the liver’s ability to regenerate means that a portion of a liver can be donated by a living donor.
+    <b>Heart and lung transplants</b> are typically performed using organs from deceased donors and are critical
+    procedures for patients with severe heart or lung disease. <b>Pancreas transplants</b> are often performed for
+    patients with type 1 diabetes to restore insulin production.<br><br>
+
+    <b>Challenges and risks:</b> Organ transplantation is a complex and risky procedure. One of the major challenges is
+    organ rejection, where the recipient’s immune system attacks the transplanted organ. Immunosuppressive drugs are
+    essential for preventing rejection but can also increase the risk of infections and other complications. Finding
+    compatible donor organs is another significant challenge, leading to long waiting lists for many patients. Ethical
+    concerns also arise, particularly regarding the allocation of organs and the potential for exploitation in the case
+    of living donors.<br><br>
+
+    <b>Advancements and future prospects:</b> Advances in transplantation medicine continue to improve outcomes for
+    patients. Better immunosuppressive drugs, improved surgical techniques, and innovations such as organ preservation
+    technologies have increased the success rates of transplants. Research into xenotransplantation (using animal organs
+    for transplantation) and the development of bioengineered organs are promising areas that could address the shortage
+    of donor organs in the future. As these technologies evolve, organ transplantation is likely to become even more
+    accessible and effective, offering hope to more patients in need.
+
+  </p>
+  <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Interview with Dr. Marcus Lee, Clinical Data Scientist</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link active" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Dr. Marcus Lee - Clinical Data Scientist</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/telemedicine.png')  }}" class="museum-image"
+            style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText"><b>Interview with Dr. Marcus Lee, Clinical Data Scientist</b>
+
+        Interviewer: Dr. Lee, thanks for speaking with us today. How is AI being used to analyze clinical data?
+        <br><br>
+        Dr. Lee: It’s my pleasure. AI is increasingly being utilized to analyze vast amounts of clinical data, which can
+        reveal insights that are not immediately apparent through traditional methods. AI algorithms can identify
+        patterns and correlations in patient data, such as identifying risk factors for diseases or predicting treatment
+        outcomes. This helps in making more informed decisions and improving patient care.
+        <br><br>
+        Interviewer: Can you provide an example of how AI has made a difference in your work?
+        <br><br>
+        Dr. Lee: Certainly. In my work, we’ve used AI to analyze patient records to identify patterns in treatment
+        responses. For instance, AI has helped us predict which patients are more likely to benefit from certain
+        therapies based on their historical data and genetic information. This has led to more personalized treatment
+        plans and improved patient outcomes. AI has also streamlined the process of data management and analysis, making
+        it easier to handle large datasets efficiently.
+        <br><br>
+        Interviewer: What are some potential risks or limitations of using AI in clinical data analysis?
+        <br><br>
+        Dr. Lee: One potential risk is the quality and completeness of the data being used. AI algorithms are only as
+        good as the data they are trained on, and incomplete or biased data can lead to inaccurate conclusions.
+        Additionally, there are concerns about data privacy and the need for proper safeguards to protect patient
+        information. It’s also important to ensure that AI insights are used to support, rather than replace, clinical
+        judgment and decision-making.
+        <br><br>
+        Interviewer: What are the future directions for AI in clinical data analysis?
+        <br><br>
+        Dr. Lee: The future of AI in clinical data analysis is promising. We can expect advancements in more
+        sophisticated algorithms that provide deeper insights into patient data. AI will likely play a significant role
+        in predictive analytics, enabling early intervention and more personalized care. Additionally, as we continue to
+        integrate AI with other technologies like genomics and wearable devices, the potential for improving patient
+        outcomes and advancing medical research will only grow.
+        <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+</html>

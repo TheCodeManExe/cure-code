@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Mri Machine</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link active" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+  <p class="HeadText">MRI Machine</p>
+  <p class="SubHeadText"></p>
+  <img src="{{ url_for('static', filename='IMG/mri-machine.png')  }}" style="display: block; margin-left: auto; margin-right: auto;">
+  <p class="DescText">
+    <b>MRI machine</b>, or Magnetic Resonance Imaging machine, is a sophisticated medical imaging device used to produce
+    detailed images of the internal structures of the body. Unlike X-rays or CT scans, MRI uses powerful magnets and
+    radio waves instead of ionizing radiation, making it a safer option for visualizing soft tissues, organs, and other
+    internal features. The clarity and precision of MRI images make it a crucial tool in diagnosing a wide range of
+    medical conditions, from brain tumors to joint injuries.<br><br>
+
+    <b>History:</b> The development of MRI technology began in the 1970s, building on principles discovered in the field
+    of nuclear magnetic resonance (NMR). Dr. Raymond Damadian, along with Paul Lauterbur and Sir Peter Mansfield, played
+    key roles in pioneering the use of MRI for medical imaging. Their contributions earned them recognition in the
+    scientific community, with Lauterbur and Mansfield receiving the Nobel Prize in Physiology or Medicine in 2003. The
+    first human MRI scans were conducted in the late 1970s, and the technology has since evolved into one of the most
+    important diagnostic tools in modern medicine.<br><br>
+
+    <b>How an MRI machine works:</b> An MRI machine operates by generating a strong magnetic field, which aligns the
+    hydrogen atoms in the body's water molecules. When these aligned atoms are exposed to a pulse of radio waves, they
+    produce signals that are detected by the machine. These signals vary depending on the type of tissue, allowing the
+    MRI to differentiate between different structures within the body. A computer processes these signals to create
+    detailed cross-sectional images, known as slices, which can be further combined to form three-dimensional
+    representations of the internal organs and tissues.<br><br>
+
+    <b>Applications:</b> MRI is widely used in various medical fields for diagnosing and monitoring conditions. It is
+    particularly effective in imaging soft tissues, such as the brain, spinal cord, muscles, and ligaments, making it
+    invaluable in neurology, orthopedics, and cardiology. For example, MRI is commonly used to detect brain tumors,
+    spinal cord injuries, multiple sclerosis, and joint abnormalities. It also plays a critical role in cardiovascular
+    imaging, allowing doctors to assess heart structures and blood flow without invasive procedures. Additionally, MRI
+    is used in oncology for detecting and staging cancers, as well as in planning surgical interventions and monitoring
+    treatment progress.<br><br>
+
+    <b>Types of MRI scans:</b> There are different types of MRI scans designed for specific purposes. Functional MRI
+    (fMRI) measures brain activity by detecting changes in blood flow, helping researchers and clinicians study brain
+    function and map areas involved in specific tasks. Magnetic Resonance Angiography (MRA) focuses on blood vessels,
+    providing detailed images of arteries and veins to diagnose vascular diseases. Another variation, known as Magnetic
+    Resonance Spectroscopy (MRS), analyzes the chemical composition of tissues, aiding in the diagnosis of metabolic
+    disorders and brain tumors.<br><br>
+
+    <b>Advancements:</b> MRI technology continues to advance, with innovations such as faster imaging techniques, higher
+    resolution, and improved patient comfort. Open MRI machines, for instance, are designed to accommodate patients who
+    are claustrophobic or have difficulty fitting into traditional machines. High-field and ultra-high-field MRI
+    machines, with stronger magnetic fields, offer even greater detail and clarity, enhancing the ability to diagnose
+    complex conditions. Additionally, new techniques like diffusion tensor imaging (DTI) and real-time MRI are expanding
+    the possibilities of MRI in both clinical practice and research.<br><br>
+
+    <b>Importance:</b> The MRI machine is an indispensable tool in modern medicine, providing non-invasive, highly
+    detailed images that are critical for accurate diagnosis and treatment planning. Its ability to safely and
+    effectively visualize internal structures without radiation exposure makes it a preferred choice for many
+    conditions, particularly those involving soft tissues. As MRI technology continues to evolve, it will likely play an
+    even greater role in personalized medicine, helping to tailor treatments to individual patients based on precise
+    imaging data.
+
+
+  </p>
+  <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - About Us</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link active" href="/about-us">About Us</a>
+    <a class="nav-link" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">About Us</p>
+  <p class="SubHeadText">Our Origin</p>
+  <p class="DescText">
+    Welcome to our project on the transformative impact of Artificial Intelligence (AI) in the medical field!
+    We are a dedicated team of students passionate about exploring the ways AI is revolutionizing healthcare and
+    improving patient outcomes.
+    Our project aims to shed light on the pivotal role AI plays in modern medicine and its potential for future
+    advancements.
+    We heard about many tragedies and accidents that happened in Hospitals by nurses/doctors who were incapable of
+    solving medical problems of patients.
+    This more than deeply affected us, but it urged us to find a solution.
+  </p>
+  <p class="SubHeadText">Our Objectives</p>
+  <p class="DescText">
+    We aim to project the role AI could play in the medical field and express the various advantages it would have.
+  </p>
+  <p class="SubHeadText">Our Team</p>
+  <p class="DescText">We are a group of six developers:
+    <br>
+    Anirudh Ganapathiraju, Samarth Kohli, Sujith Anakapalli, Aridrito Debnath, Sanjith Reddy S and Devang Upadhyay.
+  </p>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="static/IMG/Anirudh.jpg" alt="Picture of Anirudh">
+      <p>Anirudh Ganapathiraju</p>
+    </div>
+    <div class="grid-item">
+      <img src="static/IMG/Samarth.png" alt="Picture of Samarth">
+      <p>Samarth Kohli</p>
+    </div>
+    <div class="grid-item">
+      <img src="static/IMG/Sujith.jpg" alt="Picture of Sujith">
+      <p>Sujith Anakapalli</p>
+    </div>
+    <div class="grid-item">
+      <img src="static/IMG/aridrito.jpg" alt="Picture of Aridrito">
+      <p>Aridrito</p>
+    </div>
+    <div class="grid-item">
+      <img src="static/IMG/Sanjith.jpeg" alt="Picture of Sanjith">
+      <p>Sanjith Reddy S</p>
+    </div>
+
+    <div class="grid-item">
+      <img src="static/IMG/Devang.jpg" alt="Picture of Devang">
+      <p>Devang</p>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .grid-item img {
+      max-width: 100%;
+      width: 250px;
+      height: 250px;
+      border-radius: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</body>
+
+</html>

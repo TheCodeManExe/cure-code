@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Health Watches</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link active" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">Health Watches</p>
+  <p class="SubHeadText"></p>
+  <img src="{{ url_for('static', filename='IMG/health-watch.png')  }}" class="museum-image"
+      style="display: block; margin-left: auto; margin-right: auto;">
+  <p class="DescText">
+    <b>Health watches</b>, also known as smart watches, are wearable devices that combine the functionality of
+    traditional watches with advanced health and fitness tracking features. These devices are designed to monitor
+    various aspects of an individual’s health and activity levels, providing real-time data that can be used to improve
+    overall well-being. Health watches have become increasingly popular due to their ability to track vital signs,
+    fitness metrics, and even detect potential health issues.<br><br>
+
+    <b>History:</b> The concept of wearable technology dates back to the early 2000s, but it wasn’t until the release of
+    the first commercially successful smart watches in the 2010s that these devices became mainstream. Early models
+    focused primarily on fitness tracking, such as counting steps and monitoring heart rate. Over time, technological
+    advancements have allowed health watches to evolve into comprehensive health monitoring tools, integrating features
+    like ECG monitoring, blood oxygen level measurement, and sleep tracking.<br><br>
+
+    <b>How health watches work:</b> Health watches are equipped with a variety of sensors that collect data from the
+    wearer’s body. Common sensors include optical heart rate monitors, accelerometers, gyroscopes, and sometimes even
+    electrocardiogram (ECG) sensors. These sensors work together to track metrics such as heart rate, physical activity,
+    sleep patterns, and blood oxygen levels. The data is then processed by the watch's internal software and displayed
+    on the screen, often syncing with a smartphone app for more detailed analysis and long-term tracking.<br><br>
+
+    <b>Health and fitness tracking:</b> One of the primary functions of health watches is to monitor physical activity
+    and encourage a more active lifestyle. They track steps, calories burned, distance traveled, and specific workouts,
+    providing users with feedback and motivation to reach their fitness goals. Many health watches also monitor heart
+    rate throughout the day, offering insights into resting heart rate, heart rate variability, and detecting
+    irregularities that could indicate underlying health issues. Sleep tracking is another common feature, helping users
+    understand their sleep quality and duration, which is crucial for overall health.<br><br>
+
+    <b>Advanced health monitoring:</b> In addition to basic fitness tracking, many health watches now offer advanced
+    health monitoring features. For example, some models include ECG functionality, allowing users to take an
+    electrocardiogram directly from their wrist, which can detect signs of atrial fibrillation (AFib), a common heart
+    rhythm disorder. Blood oxygen level monitoring (SpO2) is another feature that has gained prominence, particularly
+    during the COVID-19 pandemic, as it helps monitor respiratory health. Stress tracking and guided breathing exercises
+    are also available in some devices, aimed at improving mental health and well-being.<br><br>
+
+    <b>Importance and impact:</b> Health watches have revolutionized personal health management by making it easier for
+    individuals to monitor their health on a daily basis. These devices empower users to take proactive steps towards
+    improving their fitness, managing stress, and detecting potential health issues early. By integrating health data
+    with smartphone apps, health watches also provide valuable information that can be shared with healthcare providers,
+    contributing to more informed and personalized medical care. As technology continues to advance, health watches are
+    likely to become even more integral to personal health management, offering new ways to track and improve
+    well-being.
+
+  </p>
+</body>
+<script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Defibrillator</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link active" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">Defibrillator</p>
+  <p class="SubHeadText"></p>
+  <img src="{{ url_for('static', filename='IMG/defibrillator.png')  }}" class="museum-image"
+      style="display: block; margin-left: auto; margin-right: auto;">
+  <p class="DescText">
+    <b>Defibrillator</b> is a medical device used to restore a normal heartbeat by sending an electric pulse or shock to
+    the heart. It is primarily used to treat life-threatening cardiac arrhythmias, including ventricular fibrillation (a
+    type of irregular heartbeat) and ventricular tachycardia (an abnormally fast heart rate). When the heart stops
+    beating effectively, a defibrillator can help re-establish an effective rhythm, potentially saving the person's
+    life.<br><br>
+
+    <b>History:</b> The concept of using electricity to treat heart conditions dates back to the late 18th century, but
+    it wasn't until the 20th century that defibrillators became practical and widely used. Dr. Claude Beck is credited
+    with performing the first successful defibrillation in 1947, reviving a patient during surgery by applying a direct
+    electrical shock to the heart. Since then, defibrillator technology has evolved significantly, leading to the
+    development of both manual and automated external defibrillators (AEDs) that are now common in hospitals, public
+    places, and even homes.<br><br>
+
+    <b>How a defibrillator works:</b> A defibrillator works by delivering a dose of electric current (called a
+    countershock) to the heart. This shock depolarizes the heart muscle, stopping the abnormal electrical activity, and
+    gives the heart a chance to reset to its normal rhythm. The process involves placing electrode pads on the patient's
+    chest, which are connected to the defibrillator. Depending on the device, the defibrillator may analyze the heart's
+    rhythm and determine if a shock is needed, as in the case of AEDs, or the decision may be made by a healthcare
+    professional using a manual defibrillator.<br><br>
+
+    <b>Types of defibrillators:</b> There are several types of defibrillators, each designed for specific situations.
+    <b>Automated External Defibrillators (AEDs)</b> are portable devices found in many public places, designed for use
+    by laypeople in emergencies. AEDs are user-friendly, with voice and visual prompts guiding the user through the
+    process of delivering a shock. <b>Manual defibrillators</b> are used by healthcare professionals in hospitals and
+    ambulances, allowing more control over the shock's intensity and timing. Another type is the <b>Implantable
+      Cardioverter-Defibrillator (ICD)</b>, which is surgically implanted in patients at risk of sudden cardiac arrest.
+    The ICD continuously monitors the heart's rhythm and delivers shocks automatically if it detects a dangerous
+    arrhythmia.<br><br>
+
+    <b>Applications:</b> Defibrillators are essential tools in emergency medicine, particularly in cases of sudden
+    cardiac arrest (SCA). When the heart's rhythm becomes chaotic or too rapid, blood flow to vital organs, including
+    the brain, is severely reduced, leading to loss of consciousness and, if untreated, death within minutes. By
+    delivering an electric shock, a defibrillator can interrupt the abnormal rhythm and allow the heart to resume a
+    normal beating pattern. The prompt use of a defibrillator, especially an AED, significantly increases the chances of
+    survival and recovery for individuals experiencing SCA.<br><br>
+
+    <b>Importance and accessibility:</b> The widespread availability of AEDs in public spaces, such as airports,
+    schools, and sports venues, has made life-saving interventions possible even before emergency medical services
+    arrive. Public training programs and awareness campaigns have educated many people on how to recognize cardiac
+    emergencies and use AEDs effectively. This accessibility and knowledge have made defibrillators a critical component
+    in the chain of survival for cardiac arrest victims, greatly improving outcomes in these emergencies.
+
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

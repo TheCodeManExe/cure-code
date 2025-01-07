@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Vaccines</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link active" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Vaccines</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/vaccine.png')  }}" class="museum-image"
+            style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText">
+        <b>Vaccines</b> are biological preparations that provide immunity to a specific infectious disease. They
+        typically contain an agent that resembles a disease-causing microorganism, which is often made from weakened or
+        killed forms of the microbe, its toxins, or one of its surface proteins. When introduced into the body, the
+        vaccine stimulates the immune system to recognize the agent as a threat, destroy it, and "remember" it, so the
+        immune system can more easily recognize and destroy any of these microorganisms it encounters in the
+        future.<br><br>
+
+        <b>The history of vaccines</b> dates back to the late 18th century when Edward Jenner, an English
+        physician, discovered that exposure to cowpox could protect against smallpox, a deadly disease. He developed the
+        first vaccine in 1796, which led to the global eradication of smallpox by 1980. Since then, vaccines have been
+        developed for many diseases, including polio, measles, mumps, rubella, and influenza, playing a crucial role in
+        public health by reducing the incidence of infectious diseases worldwide.<br><br>
+
+        <b>How vaccines work:</b> When a vaccine is administered, it introduces a harmless form of the pathogen
+        into the body. The immune system responds by producing antibodies and stimulating immune cells to attack the
+        foreign substance. This process trains the immune system to recognize and combat the pathogen if it is
+        encountered again in the future. This response is known as "immunological memory" and is the basis for the
+        long-term protection that vaccines provide.<br><br>
+
+        There are different types of vaccines, including <b>inactivated vaccines</b> (containing killed
+        pathogens), <b>live-attenuated vaccines</b> (containing weakened pathogens), <b>subunit vaccines</b>
+        (containing parts of the pathogen), and <b>mRNA vaccines</b> (which use a small piece of the pathogen's
+        genetic material to stimulate an immune response). Each type of vaccine has its advantages and is used depending
+        on the disease, the population being vaccinated, and other factors.<br><br>
+
+        <b>Vaccination programs</b> have been instrumental in controlling and even eradicating diseases. For
+        example, the global effort to vaccinate against polio has nearly eradicated the disease, with only a few cases
+        reported annually. Similarly, widespread vaccination against measles and rubella has significantly reduced the
+        prevalence of these diseases. However, maintaining high vaccination coverage is essential to prevent outbreaks,
+        as seen with recent resurgences of measles in areas with declining vaccination rates.<br><br>
+
+        Despite their effectiveness, <b>vaccines</b> have sometimes been the subject of controversy, primarily due
+        to misinformation and concerns about safety. However, extensive research and rigorous testing are conducted
+        before vaccines are approved for use, ensuring they are both safe and effective. Vaccines remain one of the most
+        cost-effective health interventions, saving millions of lives each year by preventing the spread of infectious
+        diseases.
+
+    </p>
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

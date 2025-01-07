@@ -1,0 +1,477 @@
+{
+    "areas": [
+        {
+            "name": "Serona Valley",
+            "x": 150,
+            "y": 100,
+            "infected": false,
+            "viralRate": 0,
+            "population": 41000
+        },
+        {
+            "name": "Synthwoods",
+            "x": 400,
+            "y": 100,
+            "infected": false,
+            "viralRate": 0,
+            "population": 18001
+        },
+        {
+            "name": "Quantum Village",
+            "x": 550,
+            "y": 150,
+            "infected": false,
+            "viralRate": 0,
+            "population": 21000
+        },
+        {
+            "name": "Vertex Peak",
+            "x": 700,
+            "y": 350,
+            "infected": false,
+            "viralRate": 0,
+            "population": 29000
+        },
+        {
+            "name": "Nano City",
+            "x": 150,
+            "y": 700,
+            "infected": false,
+            "viralRate": 0,
+            "population": 37000
+        },
+        {
+            "name": "Imigigimi",
+            "x": 450,
+            "y": 680,
+            "infected": false,
+            "viralRate": 0,
+            "population": 52000
+        },
+        {
+            "name": "Cybernetic Core",
+            "x": 350.59484,
+            "y": 400,
+            "infected": false,
+            "viralRate": 0,
+            "population": 34952
+        },
+        {
+            "name": "Python Heights",
+            "x": 675,
+            "y": 700,
+            "infected": false,
+            "viralRate": 0,
+            "population": 19000
+        },
+        {
+            "name": "New Kalkan",
+            "x": 690,
+            "y": 525,
+            "infected": false,
+            "viralRate": 0,
+            "population": 28000
+        },
+        {
+            "name": "Neonspire",
+            "x": 100,
+            "y": 550,
+            "infected": false,
+            "viralRate": 0,
+            "population": 32000
+        },
+        {
+            "name": "Aetherium City",
+            "x": 500,
+            "y": 325,
+            "infected": false,
+            "viralRate": 0,
+            "population": 40000
+        },
+        {
+            "name": "Zephyros",
+            "x": 250,
+            "y": 225,
+            "infected": false,
+            "viralRate": 0,
+            "population": 29000
+        },
+        {
+            "name": "Cobra Metropolitan",
+            "x": 125,
+            "y": 300,
+            "infected": false,
+            "viralRate": 0,
+            "population": 47000
+        },
+        {
+            "name": "Inter City",
+            "x": 693,
+            "y": 75,
+            "infected": false,
+            "viralRate": 0,
+            "population": 44000
+        },
+        {
+            "name": "Multitech Village",
+            "x": 100,
+            "y": 425,
+            "infected": false,
+            "viralRate": 0,
+            "population": 35000
+        },
+        {
+            "name": "Volt Town",
+            "x": 300,
+            "y": 550,
+            "infected": false,
+            "viralRate": 0,
+            "population": 24000
+        }
+    ],
+    "policies": [
+        {
+            "name": "Enforce Masks",
+            "description": "We will mandate the usage of face masks to reduce the spread of respiratory droplets.",
+            "cost": 30,
+            "happiness": -3,
+            "effectiveness": 10,
+            "researched": true,
+            "using": false,
+            "id": 1
+        },
+        {
+            "name": "Encourage Social Distancing",
+            "description": "By encouraging individuals to maintain physical distance between each other, we can minimize close contact.",
+            "cost": 10,
+            "happiness": -3,
+            "effectiveness": 5,
+            "researched": true,
+            "using": false,
+            "id": 2
+        },
+        {
+            "name": "Implement Travel Restrictions",
+            "description": "We will limit travel to and from areas with high infection rates.",
+            "cost": 60,
+            "happiness": -5,
+            "effectiveness": 8,
+            "researched": false,
+            "using": false,
+            "id": 3
+        },
+        {
+            "name": "Increase Public Awareness",
+            "description": "We shall educate the public about the symptoms, transmission, and prevention methods of the virus.",
+            "cost": 5,
+            "happiness": 0,
+            "effectiveness": 5,
+            "researched": true,
+            "using": false,
+            "id": 4
+        },
+        {
+            "name": "Regular Screening and Testing",
+            "description": "By regularly conducting widespread testing, we can identify and treat infected individuals quickly.",
+            "cost": 40,
+            "happiness": -10,
+            "effectiveness": 10,
+            "researched": false,
+            "using": false,
+            "id": 5
+        },
+        {
+            "name": "Ban Public Gatherings",
+            "description": "We will mandate the usage of face masks to reduce the spread of respiratory droplets.",
+            "cost": 20,
+            "happiness": -15,
+            "effectiveness": 15,
+            "researched": true,
+            "using": false,
+            "id": 6
+        },
+        {
+            "name": "Improve Healthcare",
+            "description": "We now have the capabilities to treat thousands of people",
+            "cost": 80,
+            "happiness": 20,
+            "effectiveness": 35,
+            "researched": false,
+            "using": false,
+            "id": 7
+        },
+        {
+            "name": "Mandate Usage of Protective Equipment",
+            "description": "We will mandate the usage of gloves, face shields, and PPE Kits in public.",
+            "cost": 70,
+            "happiness": -10,
+            "effectiveness": 20,
+            "researched": false,
+            "using": false,
+            "id": 8
+        },
+        {
+            "name": "Mandatory Vaccination for Adults",
+            "description": "Mandatory Vaccination may lead to a decrease in infection rates and could eradicate the disease. However, this could have severe consequences.",
+            "cost": 110,
+            "happiness": 5,
+            "effectiveness": 40,
+            "researched": false,
+            "using": false,
+            "id": 9
+        },
+        {
+            "name": "Promote Telemedicine",
+            "description": "We will expand telemedicine services to provide healthcare without requiring in-person visits.",
+            "cost": 90,
+            "happiness": 15,
+            "effectiveness": 10,
+            "researched": false,
+            "using": false,
+            "id": 10
+        },
+        {
+            "name": "Food Safety Regulations",
+            "description": "Strict regulations on food production, processing, and handling to reduce foodborne illnesses.",
+            "cost": 40,
+            "happiness": -40,
+            "effectiveness": 35,
+            "researched": false,
+            "using": false,
+            "id": 11
+        },
+        {
+            "name": "Environmental Protection",
+            "description": "Regulations to minimize pollution and exposure to harmful substances, reducing risks of respiratory diseases and cancers.",
+            "cost": 50,
+            "happiness": 15,
+            "effectiveness": 10,
+            "researched": false,
+            "using": false,
+            "id": 12
+        },
+        {
+            "name": "Clean Water and Sanitation",
+            "description": "Investing in infrastructure to provide access to clean drinking water and proper sanitation, reducing waterborne diseases.",
+            "cost": 125,
+            "happiness": 15,
+            "effectiveness": 40,
+            "researched": false,
+            "using": false,
+            "id": 13
+        },
+        {
+            "name": "Poverty Reduction",
+            "description": "Addressing socioeconomic factors that contribute to disease, such as poverty, lack of education, and food insecurity.",
+            "cost": 100,
+            "happiness": 50,
+            "effectiveness": 10,
+            "researched": false,
+            "using": false,
+            "id": 14
+        },
+        {
+            "name": "Affordable Housing",
+            "description": "Ensuring access to safe and affordable housing to prevent housing-related diseases and improve overall health.",
+            "cost": 125,
+            "happiness": 50,
+            "effectiveness": 35,
+            "researched": false,
+            "using": false,
+            "id": 15
+        },
+        {
+            "name": "Genetic Engineeering",
+            "description": "By using modern technologies like CRISPR-Cas9, we can use genetic engineering to cure infected individuals. This may have severe consequences if not executed correctly.",
+            "cost": 150,
+            "happiness": 20,
+            "effectiveness": 50,
+            "researched": false,
+            "using": false,
+            "id": 16
+        },
+        {
+            "name": "Disease Management Programs",
+            "description": "Develop programs for the effective management of chronic diseases, including diabetes, heart disease, and respiratory illnesses. ",
+            "cost": 150,
+            "happiness": 50,
+            "effectiveness": 45,
+            "researched": false,
+            "using": false,
+            "id": 17
+        },
+        {
+            "name": "Spread Propaganda",
+            "description": "We will spread propaganda supporting our state's initiatives towards curing illnesses.",
+            "cost": 40,
+            "happiness": 20,
+            "effectiveness": -5,
+            "researched": true,
+            "using": false,
+            "id": 18
+        },
+        {
+            "name": "Nanotechnology",
+            "description": "By injecting nanoscopic machines into infected individuals, we can erase all traces of the virus from their bodies.",
+            "cost": 120,
+            "happiness": -10,
+            "effectiveness": 40,
+            "researched": false,
+            "using": false,
+            "id": 19
+        }
+    ],
+    "events": [
+        {
+            "name": "Financial Aid",
+            "description": "Due to our struggles, many international organizations generously donate money.",
+            "effect": {
+                "money": 100,
+                "happiness": 0,
+                "viralRate": 0
+            },
+            "condition": "money <= 40 && day > 5 && happiness <= 30"
+        },
+        {
+            "name": "Research Breakthrough",
+            "effect": {
+                "money": 0,
+                "happiness": 10,
+                "viralRate": -10
+            },
+            "condition": "money >= 85",
+            "description": "A major breakthrough in research leads to an improvement in controlling the virus."
+        },
+        {
+            "name": "Public Protests",
+            "effect": {
+                "money": -50,
+                "happiness": -20,
+                "viralRate": 0
+            },
+            "condition": "happiness <= 30 && day > 5",
+            "description": "Public dissatisfaction leads to protests, impacting our budget and happiness."
+        },
+        {
+            "name": "Viral Mutation",
+            "effect": {
+                "money": 0,
+                "happiness": -10,
+                "viralRate": 20
+            },
+            "condition": "happiness <= 60 && money <= 80",
+            "description": "A mutation in the virus leads to a sudden increase in it's spread."
+        },
+        {
+            "name": "Economic Depression",
+            "effect": {
+                "money": -50,
+                "happiness": -5,
+                "viralRate": 0
+            },
+            "condition": "money >= 70 && happiness <= 50 && Math.random() <= 0.4",
+            "description": "Due to high unemployment rates, the government reduces our budget to save costs."
+        },
+        {
+            "name": "Public Health Investigation",
+            "effect": {
+                "money": 0,
+                "happiness": -25,
+                "viralRate": -5
+            },
+            "condition": "money >= 70 && happiness >= 50 && Math.random() <= 0.4",
+            "description": "Due to high infection rates, investigations have been launched to research the ongoing corruption in our initiatives."
+        },
+        {
+            "name": "Supply Shortage",
+            "effect": {
+                "money": -60,
+                "happiness": -15,
+                "viralRate": 5
+            },
+            "condition": "day % 9 === 0 && money >= 60 && happiness >= 70",
+            "description": "A shortage of medical supplies affects our budget and increases the viral rate."
+        },
+        {
+            "name": "Media Coverage and Public Anxiety",
+            "effect": {
+                "money": -40,
+                "happiness": -50,
+                "viralRate": 5
+            },
+            "condition": "money >= 60 && happiness >= 70 && Math.random() <= 0.1",
+            "description": "Media coverage increases dramatically, and public anxiety and fear escalate."
+        },
+        {
+            "name": "Disease survilliance control",
+            "effect": {
+                "money": -60,
+                "happiness": -15,
+                "viralRate": 5
+            },
+            "condition": "money >= 30 && happiness <= 50 && Math.random() <= 0.3",
+            "description": "Effective monitoring and early detection of outbreaks help prevent the spread of diseases. This includes prompt diagnosis and treatment of infected individuals."
+        },
+        {
+            "name": "Healthcare System Strain",
+            "effect": {
+                "money": -20,
+                "happiness": -40,
+                "viralRate": 5
+            },
+            "condition": "money >= 65 && happiness >= 60 && Math.random() <= 0.3",
+            "description": "Healthcare systems become overwhelmed as they struggle to manage the surge in patients."
+        },
+        {
+            "name": "Vaccination Failure",
+            "effect": {
+                "money": 0,
+                "happiness": -50,
+                "viralRate": 10
+            },
+            "condition": "happiness >= 80 && Math.random() <= 0.3 && policyUsing(9)",
+            "description": "Due to many flaws in our vaccine's formula, our vaccine has become toxic. Many people die and suffer. The public is enraged."
+        },
+        {
+            "name": "Increased Community Engagement",
+            "effect": {
+                "money": 0,
+                "happiness": 25,
+                "viralRate": 5
+            },
+            "condition": "happiness <= 40 && Math.random() <= 0.3750",
+            "description": "Outbreaks can often bring communities together, fostering a sense of shared responsibility and a willingness to help one another."
+        },
+        {
+            "name": "Wellness Workshops",
+            "effect": {
+                "money": 75,
+                "happiness": 45,
+                "viralRate": 10
+            },
+            "condition": "happiness >= 60 && Math.random() <= 0.3 && policyUsing(9)",
+            "description": "The public cover topics like mindfulness, sleep hygiene, healthy relationships, and stress reduction on social media."
+        },
+        {
+            "name": "Nanobot Failure",
+            "effect": {
+                "money": 0,
+                "happiness": -50,
+                "viralRate": 10
+            },
+            "condition": "happiness >= 80 && Math.random() <= 0.3 && policyUsing(19)",
+            "description": "The nanobots have gotten out of control. Many people die and suffer. The public is enraged."
+        },
+        {
+            "name": "Genetic Disaster",
+            "effect": {
+                "money": -50,
+                "happiness": -50,
+                "viralRate": 30
+            },
+            "condition": "money >= 50 && happiness >= 60 && Math.random() <= 0.3 && policyUsing(16)",
+            "description": "Due to our failures in genetic engineering, we have ruined the ecosystem's balance. The entire world is affected by our actions."
+        }
+        
+    ]
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Trivia</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link active" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Trivia</p>
+
+    <div id="question-container" style="visibility: hidden;">
+        <p id="question"></p>
+        <a class="mcq-choice" id="choice1"></a>
+        <a class="mcq-choice" id="choice2"></a>
+        <a class="mcq-choice" id="choice3"></a>
+        <a class="mcq-choice" id="choice4"></a>
+    </div>
+
+    <button id="start">Start Trivia</button>
+
+    <audio id="buzzer" style="visibility: hidden;" src="static/AUDIO/buzzer.mp3" controls></audio>
+    <audio id="correct" style="visibility: hidden;" src="static/AUDIO/correct.mp3" controls></audio>
+
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+    <script src="{{ url_for('static', filename='JS/trivia.js')  }}"></script>
+
+    <style>
+        #start {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 30%;
+            width: 80%;
+            font-size: 4rem;
+            border-radius: 5rem;
+            background-color: rgb(23, 201, 62);
+            border: 8px black solid;
+            transition: 0.3s ease-in-out;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        #start:hover{
+            background-color: lightblue;
+        }
+
+        #question {
+            font-size: 2.5rem;
+            text-align: center;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 0.3s;
+            opacity: 0;
+        }
+
+        .mcq-choice {
+            color: white;
+            display: block;
+            font-size: 1.5rem;
+            background-color: rgb(37, 77, 122);
+            margin: 20px 400px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 2rem;
+            border: 2px black solid;
+            transition: background-color 0.2s ease-in-out;
+            transition: 0.3s;
+            opacity: 0;
+        }
+
+        .mcq-choice:hover {
+            background-color: orangered;
+        }
+    </style>
+</body>
+
+</html>

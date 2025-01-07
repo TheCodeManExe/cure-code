@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Interview of Emily Chan, AI Researcher</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link active" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Dr. Emily Chen - AI Researcher</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/artificial-intelligence-chip.png')  }}" class="museum-image"
+            style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText"><b>Interview with Dr. Emily Chen, AI Researcher</b>
+        <br><br><br><br>
+        Interviewer: Welcome, Dr. Chen. Thank you for joining us today. Can you start by explaining how AI is being used
+        in the medical field?
+        <br><br>
+        Dr. Chen: Thank you for having me. AI is making significant strides in healthcare. In diagnostic imaging, for
+        example, AI algorithms analyze medical images such as X-rays and MRIs with remarkable accuracy, detecting
+        conditions like tumors or fractures that might be missed by human eyes. AI is also transforming predictive
+        analytics by helping to forecast patient outcomes and tailor treatment plans based on individual patient data.
+        <br><br>
+
+        Interviewer: What are some challenges associated with implementing AI in healthcare?
+        <br><br>
+        Dr. Chen: Implementing AI in healthcare does present several challenges. One major issue is ensuring the
+        diversity and representativeness of the data used to train AI models. Without this, there's a risk of biased
+        outcomes that may not be effective across diverse patient populations. Integrating AI into existing workflows
+        can also be disruptive. Moreover, there are important concerns about data privacy and the need for stringent
+        regulatory oversight to ensure that these technologies are both safe and effective.
+        <br><br>
+
+        Interviewer: How do you see AI evolving in the next few years?
+        <br><br>
+        Dr. Chen: In the near future, AI is expected to become increasingly integrated into clinical practice. We might
+        see advancements in real-time diagnostics, where AI offers immediate insights during patient consultations.
+        Additionally, AI is poised to enhance personalized medicine by providing treatments tailored to individual
+        genetic profiles. As the field evolves, AI will play an even more critical role in improving patient outcomes
+        and streamlining healthcare operations.
+
+
+        <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

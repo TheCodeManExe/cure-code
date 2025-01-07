@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Surgical tools</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link active" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Surgical Tools</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/surgical-tools.png')  }}" class="museum-image"
+            style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText"><b>The history of surgical tools</b> is a fascinating journey that spans from the use of crude
+        flint knives in ancient times to the sophisticated AI-assisted robots of today. Around 5000 BCE, early humans
+        had to make do with surgical instruments made from flint, obsidian, and bone. These primitive tools were used
+        for rudimentary procedures like trepanation, which involved drilling holes in the skull to release evil
+        spirits—without anesthesia, of course. While these early tools were basic, they were surprisingly effective,
+        assuming the patient survived the ordeal.
+        <br><br>
+        As civilization progressed, the Greeks and Romans took surgical tools to the next level, moving from stone to
+        metal instruments around 300 BCE. Bronze and iron tools became the norm, with Hippocrates, the "Father of
+        Medicine," leading the charge. Roman surgical kits included a variety of instruments such as scalpels, forceps,
+        and bone levers, which wouldn't look out of place in a modern horror film. By this period, surgery had evolved
+        into a legitimate medical practice, though anesthesia was still not available, so speed and efficiency were
+        crucial.
+        <br><br>
+        <b>The Middle Ages</b>, from 500 to 1500 CE, weren't the best time to need surgery. Surgeons were often also
+        barbers, meaning the same person who gave you a shave might also amputate your leg. The tools were still
+        rudimentary, mainly made of iron or steel, and the methods were often brutal. Bloodletting and the use of
+        leeches were common practices, as they were believed to balance the body's humors. If you've ever wondered why
+        people in old portraits look so grumpy, it might be because they had just undergone surgery with what was
+        essentially a carpenter's saw.
+        <br><br>
+        <b>The Renaissance</b>, spanning from 1500 to 1800 CE, marked a significant improvement in surgical practices.
+        Surgeons like Andreas Vesalius, known as the founder of modern anatomy, began conducting detailed dissections
+        and writing extensively about surgical instruments. Tools became more specialized, with distinct instruments for
+        different procedures, such as forceps for childbirth and scalpels for precise incisions. Although anesthesia
+        still wasn't in the picture, the overall approach to surgery became more refined.
+        <br><br>
+        <b>The 19th century</b> was a game-changer for surgery, with the introduction of ether and chloroform, allowing
+        patients to sleep through procedures for the first time. Joseph Lister's antiseptic techniques drastically
+        reduced infection rates, and surgical instruments became more varied and sophisticated, often made of stainless
+        steel for easy sterilization. Surgeons of the time likely marveled at these advancements, which made surgery
+        less of a horrifying experience.
+        <br><br>
+        <b>The 20th century</b> brought an explosion of technological advancements that transformed surgery. The
+        invention of antibiotics, advanced imaging techniques like X-rays, and the introduction of electrosurgical tools
+        made surgeries safer and more precise. Laparoscopic surgery emerged, allowing procedures to be done through tiny
+        incisions with the help of cameras and specialized instruments. The introduction of surgical robots in the 1980s
+        brought unprecedented precision, as surgeons could now operate using robotic arms controlled by a computer.
+        <br><br>
+        <b>Today, in the 21st century</b>, we're witnessing the integration of AI and nanotechnology into surgery. AI
+        assists in diagnosing conditions, planning surgeries, and even predicting complications in real-time. Surgical
+        robots, often guided by AI, allow for incredibly precise and minimally invasive procedures. Nanotechnology is on
+        the horizon, with the potential to create tiny tools that can operate at a cellular level, possibly
+        revolutionizing how we treat diseases. The history of surgical tools, from flint knives to AI-driven robots, is
+        a testament to human ingenuity and the relentless pursuit of better ways to heal. While the future of surgery
+        might involve AI doing most of the work, we can be thankful that we've moved far beyond the days when visiting a
+        barber could result in an unexpected amputation.
+
+    </p>
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

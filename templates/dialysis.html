@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cure Code - Dialysis</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/about-us">About Us</a>
+    <a class="nav-link active" href="/museum">Museum</a>
+    <a class="nav-link" href="/our-vision">Our Vision</a>
+    <a class="nav-link" href="/health-horizon">Health Horizon</a>
+    <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+    <a class="nav-link" href="/case-studies">Case Studies</a>
+    <a class="nav-link" href="/expert-talk">Expert Talk</a>
+    <a class="nav-link" href="/trivia">Trivia</a>
+    <a class="nav-link" href="/reviews">Reviews</a>
+    <p class="nav-icon">Cure Code</p>
+  </div>
+
+  <p class="HeadText">Dialysis</p>
+  <p class="SubHeadText"></p>
+  <img src="{{ url_for('static', filename='IMG/dialysis.png')  }}" class="museum-image"
+      style="display: block; margin-left: auto; margin-right: auto;">
+  <p class="DescText">
+    <br>
+
+    <b>Dialysis</b> is a medical treatment that replicates the essential functions of the <b>kidneys</b> when they are
+    no longer able to effectively filter waste products and excess fluids from the blood. This process is crucial for
+    patients with <b>chronic kidney disease (CKD<a style="font-size: 2px;" href="/abcdef12345">.</a>)</b> or <b>acute kidney failure</b>, conditions in which the kidneys
+    are significantly impaired.<br><br>
+
+    There are two primary types of dialysis: <b>hemodialysis</b> and <b>peritoneal dialysis</b>. <b>Hemodialysis</b>
+    involves diverting blood from the body into a dialysis machine where it is filtered through a special membrane,
+    removing waste products and excess fluids. The cleaned blood is then returned to the body. This procedure is
+    typically performed in a <b>dialysis center</b> three times a week, with each session lasting about four
+    hours.<br><br>
+
+    <b>Peritoneal dialysis</b>, on the other hand, uses the patient’s own abdominal cavity as a filter. A special
+    solution called <b>dialysate</b> is introduced into the abdominal cavity through a catheter. This solution absorbs
+    waste products and excess fluids from the blood vessels in the abdominal lining. After a set period, the dialysate
+    is drained from the abdomen and replaced with fresh solution. Peritoneal dialysis can be performed manually or with
+    the help of a machine and is often done at home.<br><br>
+
+    Both types of dialysis come with their own benefits and limitations. <b>Hemodialysis</b> is generally performed in a
+    controlled clinical environment and can be more efficient in rapidly removing toxins. However, it requires frequent
+    visits to the dialysis center and can be associated with complications such as low blood pressure and infections.
+    <b>Peritoneal dialysis</b> offers greater flexibility and can be done at home, but it requires careful management to
+    avoid infections like peritonitis and may not be suitable for all patients.<br><br>
+
+    Dialysis is a life-saving treatment but is not a cure for kidney disease. It aims to manage symptoms and improve
+    quality of life. For many patients, <b>kidney transplantation</b> is the preferred long-term solution, though it is
+    not always an option due to donor availability or medical conditions.<br><br>
+
+    Overall, dialysis plays a crucial role in managing kidney failure and requires ongoing care and monitoring to ensure
+    effectiveness and address any potential complications. It allows patients to maintain their daily lives and health
+    while managing the limitations imposed by their kidney condition.<br>
+  </p>
+
+
+
+  <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

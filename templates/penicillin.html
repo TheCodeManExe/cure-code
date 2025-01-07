@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cure Code - Penicillin</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="nav-link" href="/">Home</a>
+      <a class="nav-link" href="/about-us">About Us</a>
+      <a class="nav-link active" href="/museum">Museum</a>
+      <a class="nav-link" href="/our-vision">Our Vision</a>
+      <a class="nav-link" href="/health-horizon">Health Horizon</a>
+      <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+      <a class="nav-link" href="/case-studies">Case Studies</a>
+      <a class="nav-link" href="/expert-talk">Expert Talk</a>
+      <a class="nav-link" href="/trivia">Trivia</a>
+      <a class="nav-link" href="/reviews">Reviews</a>
+      <p class="nav-icon">Cure Code</p>
+  </div>
+  
+    <p class="HeadText">Penicillin</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/penicillin.png')  }}" class="museum-image" style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText"><b>Evoulution of penacillin</b>
+        5000 BCE: Ancient civilizations like the Egyptians, Chinese, and Greeks used moldy bread and fermented foods for their healing properties. While they didn't understand penicillin specifically, they unknowingly benefited from similar microbial actions.<br><br>
+        Ancient Greece and Rome: Hippocrates and Galen made early observations about the effects of mold on wounds, although they didn't identify the exact nature of the microbes involved.<br><br>
+        Middle Ages: Herbal remedies and natural treatments continued to be used. Moldy bread was known in some cultures as a remedy for infections, but the scientific basis was not understood.<br><br>
+        <b>Renaissance to 19th Century</b>
+        1796: Edward Jenner developed the smallpox vaccine, which set the stage for a better understanding of microbes and immunity, indirectly paving the way for antibiotic discovery.<br><br>
+        1857: Louis Pasteur's experiments established the germ theory of disease, proving that microorganisms were responsible for infections and diseases.<br><br>
+        1880s: Sir Joseph Lister’s work on antiseptics and surgical cleanliness highlighted the need for effective treatments for bacterial infections.<br><br>
+        <b>Discovery of Penicillin</b>
+        1928: Alexander Fleming, a Scottish bacteriologist, accidentally discovered penicillin when he noticed that mold (Penicillium notatum) on a petri dish killed surrounding bacteria. This marked the beginning of the antibiotic era.<br><br>
+        1930s-1940s: Howard Florey and Sir Ernst Boris Chain, along with their team, developed methods to mass-produce penicillin during World War II, which revolutionized medicine and greatly reduced the death rate from bacterial infections.<br><br>
+        <b>Post-War and Modern Era</b>
+        1940s-Present: Penicillin became widely used and led to the discovery of other antibiotics. It remains a cornerstone of modern medicine, although antibiotic resistance has emerged as a significant challenge.<br><br>
+    </p>
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+    </body>
+</html>

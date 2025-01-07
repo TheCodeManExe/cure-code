@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Case Study 2</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link active" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+    <p class="HeadText">Case Study 2: Genetic Reprogramming in Acute Myeloid Leukemia (AML)</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/dna.png')  }}" class="museum-image"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText">
+        <b>Genetic Reprogramming in Acute Myeloid Leukemia (AML)</b>
+        <br><br>
+        <b>Background</b>
+        Acute Myeloid Leukemia (AML) is a type of cancer that originates in the bone marrow and quickly spreads into the
+        blood, affecting the production of normal blood cells. It is characterized by the rapid growth of abnormal
+        myeloid cells, which can lead to a variety of health complications. AML is one of the most aggressive forms of
+        leukemia, and its treatment often involves a combination of chemotherapy, radiation, and bone marrow
+        transplantation. However, the prognosis for AML patients remains challenging, particularly due to the disease's
+        genetic complexity and resistance to conventional therapies.
+        <br><br>
+        <b>Genetic Reprogramming: A New Frontier</b>
+        Genetic reprogramming has emerged as a promising approach in the fight against AML. This innovative technique
+        involves altering the genetic code of cancer cells to either revert them to a less aggressive state or make them
+        more susceptible to treatment. By targeting specific genetic mutations and pathways that drive the growth and
+        survival of AML cells, researchers aim to disrupt the disease at its core.
+        <br><br>
+        <b>Key Techniques in Genetic Reprogramming</b>
+        One of the most notable techniques in genetic reprogramming is the use of CRISPR-Cas9 technology, which allows
+        scientists to precisely edit the DNA of AML cells. This technology can be used to knock out oncogenes—genes that
+        promote cancer growth—or to restore the function of tumor suppressor genes that have been inactivated in cancer
+        cells. Another approach involves the use of small molecules or RNA-based therapies that can modulate the
+        expression of genes involved in AML, effectively "reprogramming" the cells to undergo cell death or
+        differentiation into normal blood cells.
+        <br><br>
+        <b>Clinical Implications</b>
+        The potential of genetic reprogramming in AML treatment is immense, offering a more targeted and personalized
+        approach compared to traditional therapies. Early-stage clinical trials have shown promising results, with some
+        patients achieving remission through genetic reprogramming techniques. However, the application of these methods
+        in a clinical setting is still in its infancy, and further research is needed to refine these approaches and
+        address potential safety concerns.
+        <br><br>
+        <b>Challenges and Future Directions</b>
+        Despite the promise of genetic reprogramming, several challenges remain. The genetic heterogeneity of AML means
+        that a single reprogramming strategy may not be effective for all patients. Additionally, there is the risk of
+        off-target effects, where unintended changes to the DNA could potentially lead to new health issues. Ongoing
+        research is focused on improving the precision and efficacy of these techniques, as well as developing
+        combination therapies that integrate genetic reprogramming with existing treatments.
+        <br><br>
+        <b>Conclusion</b>
+        Genetic reprogramming represents a revolutionary approach to the treatment of Acute Myeloid Leukemia, offering
+        hope for more effective and personalized therapies. While still in the experimental stages, the advances in this
+        field could significantly improve outcomes for AML patients in the future. As research continues to evolve,
+        genetic reprogramming may become a cornerstone of cancer treatment, transforming the way we approach this
+        challenging disease.
+    </p>
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

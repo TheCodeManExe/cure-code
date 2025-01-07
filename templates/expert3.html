@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Interview with Sarah Johnson, Healthcare Technology Advocate</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link active" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Dr. Sarah Johnson - Healthcare Technology Advocate</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/medkit.png')  }}" class="museum-image"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText"><b>Interview with Sarah Johnson, Healthcare Technology Advocate</b>
+
+        Interviewer: Sarah, thank you for being here. How is AI changing the patient experience in healthcare?<br><br>
+
+        Sarah Johnson: Thank you for having me. AI is enhancing the patient experience in several ways. AI-powered
+        chatbots and virtual assistants, for example, provide patients with information about their conditions, answer
+        common questions, and assist with appointment scheduling. This accessibility helps patients manage their
+        healthcare more efficiently and conveniently, reducing the need for in-person interactions for every
+        query.
+        <br><br>
+        Interviewer: What are some potential drawbacks or concerns related to AI in patient care?
+        <br><br>
+        Sarah Johnson: While AI brings many benefits, there are concerns to address. One issue is the potential for
+        depersonalization, where interactions might feel too robotic or impersonal. There is also a risk of
+        over-reliance on AI tools, which might diminish human oversight. Data privacy and security are critical concerns
+        as AI systems handle large amounts of personal health data. Ensuring robust safeguards and maintaining a balance
+        between technology and human interaction is essential.
+        <br><br>
+        Interviewer: What steps can be taken to address these concerns?
+        <br><br>
+        Sarah Johnson: To address these concerns, transparency and patient education are key. Patients should understand
+        how AI is used in their care and have the choice to opt-out if desired. Robust data security measures and
+        compliance with privacy regulations are crucial. Additionally, AI should complement rather than replace human
+        care, maintaining a personal touch in patient interactions while leveraging technology to enhance care
+        quality.
+        <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

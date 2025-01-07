@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - X-Rays</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link active" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">X-Rays</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/x-ray.png')  }}" class="museum-image"
+            style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText">
+        <b>X-rays</b> are a form of electromagnetic radiation, discovered in 1895 by the German physicist Wilhelm
+        Conrad Roentgen. Roentgen was experimenting with cathode rays when he noticed that a fluorescent screen in his
+        lab began to glow, even though it was not in direct line with the cathode ray tube. This led him to realize that
+        a new type of ray, which he termed "X-rays" (with "X" signifying an unknown quantity), was capable of
+        penetrating various materials and causing the screen to glow. His discovery revolutionized the field of
+        medicine, earning him the first Nobel Prize in Physics in 1901.
+        <br><br>
+        <b>How X-rays work:</b> X-rays are emitted as high-energy electromagnetic waves, with a much shorter
+        wavelength than visible light, allowing them to pass through most objects, including the human body. When X-rays
+        are directed at a part of the body, different tissues absorb them to varying degrees. Bones, for example, absorb
+        X-rays more than soft tissues like muscles or organs. As a result, when the X-rays pass through the body and
+        strike a detector (such as photographic film or a digital sensor), an image is formed where denser materials
+        like bones appear white, and less dense tissues appear in shades of gray.
+        <br><br>
+        The process of creating an X-ray image involves an <b>X-ray tube</b>, which produces the X-rays by
+        accelerating electrons at a high speed toward a metal target, typically made of tungsten. When the electrons
+        collide with the target, X-rays are emitted. The intensity of the X-rays and the duration of exposure are
+        carefully controlled to produce a clear image while minimizing the dose of radiation received by the patient.
+        Advancements in technology, such as digital radiography, have led to quicker results and lower radiation
+        exposure.
+        <br><br>
+        In addition to medical diagnostics, <b>X-rays</b> have a wide range of applications. They are used in
+        industries for non-destructive testing of materials, in security for scanning luggage and cargo, and in
+        scientific research like crystallography, where X-rays help determine the structure of crystals at the atomic
+        level. In astronomy, X-ray telescopes observe celestial phenomena like black holes and neutron stars, which emit
+        X-rays that are invisible to optical telescopes.
+        <br><br>
+        Despite their many benefits, <b>X-rays</b> come with risks, particularly due to their ability to ionize
+        atoms and molecules, which can lead to cellular damage and increase the risk of cancer. This has led to the
+        development of safety protocols to minimize exposure, such as using lead aprons and shields in medical settings.
+        While the radiation from a single X-ray image is generally low, cumulative exposure over time can be
+        significant, necessitating careful consideration of the benefits versus risks.
+        <br><br>
+        The discovery and development of <b>X-ray technology</b> have profoundly impacted science and medicine,
+        opening up new possibilities for diagnosing and treating diseases, improving safety and quality control in
+        various industries, and expanding our understanding of the universe. As technology continues to advance, X-rays
+        remain an essential tool in many fields, underscoring the enduring significance of Roentgen's groundbreaking
+        discovery.
+
+        <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>

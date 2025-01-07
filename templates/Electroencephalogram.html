@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cure Code - Electroencephalogram</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='IMG/favicon.ico')  }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/about-us">About Us</a>
+        <a class="nav-link active" href="/museum">Museum</a>
+        <a class="nav-link" href="/our-vision">Our Vision</a>
+        <a class="nav-link" href="/health-horizon">Health Horizon</a>
+        <a class="nav-link" href="/pathogen-protocol">Pathogen Protocol</a>
+        <a class="nav-link" href="/case-studies">Case Studies</a>
+        <a class="nav-link" href="/expert-talk">Expert Talk</a>
+        <a class="nav-link" href="/trivia">Trivia</a>
+        <a class="nav-link" href="/reviews">Reviews</a>
+        <p class="nav-icon">Cure Code</p>
+    </div>
+
+    <p class="HeadText">Electroencephalogram</p>
+    <p class="SubHeadText"></p>
+    <img src="{{ url_for('static', filename='IMG/electroencephalogram.png')  }}" class="museum-image"
+        style="display: block; margin-left: auto; margin-right: auto;">
+    <p class="DescText">
+        <b>Electroencephalogram (EEG)</b> is a non-invasive medical test that measures and records the electrical
+        activity of the brain. This procedure is widely used to diagnose and monitor neurological conditions such as
+        epilepsy, sleep disorders, brain injuries, and other conditions that affect brain function. The EEG is performed
+        by placing small electrodes on the scalp, which detect the electrical impulses produced by the brain's neurons.
+        These impulses are then amplified and recorded as wave patterns, providing valuable information about the
+        brain's activity.<br><br>
+
+        <b>History:</b> The development of EEG can be traced back to the early 20th century. The first human EEG
+        recording was made in 1924 by German psychiatrist Hans Berger, who discovered that the brain produces electrical
+        activity that can be measured through the scalp. Berger's pioneering work laid the foundation for the use of EEG
+        in clinical and research settings. Over the decades, EEG technology has evolved, becoming an essential tool in
+        neurology for diagnosing and understanding various brain disorders.<br><br>
+
+        <b>How EEG works:</b> During an EEG, small electrodes are attached to the scalp using a conductive gel. These
+        electrodes pick up the brain's electrical signals, which are then transmitted to an EEG machine. The machine
+        amplifies these signals and displays them as waveforms on a computer screen or paper. The waveforms are
+        characterized by their frequency, amplitude, and shape, which can vary depending on the individual's brain
+        activity and the specific area of the brain being monitored. EEG recordings can show different types of brain
+        waves, such as alpha, beta, delta, and theta waves, each associated with different states of consciousness, such
+        as wakefulness, relaxation, or sleep.<br><br>
+
+        <b>Applications of EEG:</b> EEG is primarily used in the diagnosis and monitoring of epilepsy, as it can detect
+        abnormal electrical activity in the brain, such as seizures. It is also used to evaluate other neurological
+        conditions, including sleep disorders, head injuries, brain tumors, and encephalitis. In addition to clinical
+        applications, EEG is used in research to study brain function, cognitive processes, and the effects of various
+        stimuli on the brain. EEG can also be used during surgery to monitor brain activity and ensure the brain is
+        functioning properly while under anesthesia.<br><br>
+
+        <b>Benefits and limitations:</b> The main advantage of EEG is its ability to provide real-time information about
+        brain activity, making it a valuable tool for diagnosing and monitoring neurological conditions. EEG is also
+        non-invasive, painless, and relatively low-cost compared to other neuroimaging techniques, such as MRI or CT
+        scans. However, EEG has limitations, including its inability to precisely localize the source of brain activity,
+        as the signals detected by the electrodes are often a summation of activity from multiple brain regions.
+        Additionally, EEG is sensitive to movement, which can introduce artifacts into the recording and make
+        interpretation more challenging.<br><br>
+
+        <b>Future developments:</b> Advances in EEG technology are focused on improving the spatial resolution of
+        recordings, enhancing signal processing techniques, and integrating EEG with other imaging modalities, such as
+        functional MRI (fMRI) or magnetoencephalography (MEG). These developments aim to provide a more comprehensive
+        understanding of brain activity and its relationship to behavior and neurological disorders. Additionally,
+        portable and wireless EEG devices are being developed, which could allow for more widespread use of EEG in both
+        clinical and research settings, as well as for continuous monitoring in everyday environments.
+
+    </p>
+
+    <script src="{{ url_for('static', filename='JS/load_transition.js')  }}"></script>
+</body>
+
+</html>
