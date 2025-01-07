@@ -11,6 +11,10 @@
     {
       "review": "good",
       "stars": "5"
+    },
+    {
+      "review": "nice",
+      "stars": "4"
     }
   ]
 }
