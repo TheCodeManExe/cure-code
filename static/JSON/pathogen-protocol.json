@@ -326,7 +326,7 @@
             "name": "Financial Aid",
             "description": "Due to our struggles, many international organizations generously donate money.",
             "effect": {
-                "money": 100,
+                "money": 150,
                 "happiness": 0,
                 "viralRate": 0
             },
