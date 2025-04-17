@@ -330,7 +330,7 @@
                 "happiness": 0,
                 "viralRate": 0
             },
-            "condition": "money <= 40 && day > 5 && happiness <= 30"
+            "condition": "money <= 40 && day > 5 && happiness <= 30 && viralRate >= 20"
         },
         {
             "name": "Research Breakthrough",
@@ -345,27 +345,27 @@
         {
             "name": "Public Protests",
             "effect": {
-                "money": -50,
+                "money": -25,
                 "happiness": -20,
-                "viralRate": 0
+                "viralRate": 5
             },
             "condition": "happiness <= 30 && day > 5",
-            "description": "Public dissatisfaction leads to protests, impacting our budget and happiness."
+            "description": "Public dissatisfaction leads to protests, impacting our budget and happiness. Which also spread the virus."
         },
         {
             "name": "Viral Mutation",
             "effect": {
                 "money": 0,
-                "happiness": -10,
+                "happiness": -15,
                 "viralRate": 20
             },
-            "condition": "happiness <= 60 && money <= 80",
+            "condition": "happiness >= 60 && money <= 80",
             "description": "A mutation in the virus leads to a sudden increase in it's spread."
         },
         {
             "name": "Economic Depression",
             "effect": {
-                "money": -50,
+                "money": -40,
                 "happiness": -5,
                 "viralRate": 0
             },
@@ -376,7 +376,7 @@
             "name": "Public Health Investigation",
             "effect": {
                 "money": 0,
-                "happiness": -25,
+                "happiness": -10,
                 "viralRate": -5
             },
             "condition": "money >= 70 && happiness >= 50 && Math.random() <= 0.4",
@@ -396,7 +396,7 @@
             "name": "Media Coverage and Public Anxiety",
             "effect": {
                 "money": -40,
-                "happiness": -50,
+                "happiness": -45,
                 "viralRate": 5
             },
             "condition": "money >= 60 && happiness >= 70 && Math.random() <= 0.1",
@@ -407,7 +407,7 @@
             "effect": {
                 "money": -60,
                 "happiness": -15,
-                "viralRate": 5
+                "viralRate": -15
             },
             "condition": "money >= 30 && happiness <= 50 && Math.random() <= 0.3",
             "description": "Effective monitoring and early detection of outbreaks help prevent the spread of diseases. This includes prompt diagnosis and treatment of infected individuals."
@@ -416,7 +416,7 @@
             "name": "Healthcare System Strain",
             "effect": {
                 "money": -20,
-                "happiness": -40,
+                "happiness": -30,
                 "viralRate": 5
             },
             "condition": "money >= 65 && happiness >= 60 && Math.random() <= 0.3",
@@ -425,8 +425,8 @@
         {
             "name": "Vaccination Failure",
             "effect": {
-                "money": 0,
-                "happiness": -50,
+                "money": -10,
+                "happiness": -20,
                 "viralRate": 10
             },
             "condition": "happiness >= 80 && Math.random() <= 0.3 && policyUsing(9)",
@@ -436,7 +436,7 @@
             "name": "Increased Community Engagement",
             "effect": {
                 "money": 0,
-                "happiness": 25,
+                "happiness": 50,
                 "viralRate": 5
             },
             "condition": "happiness <= 40 && Math.random() <= 0.3750",
@@ -456,7 +456,7 @@
             "name": "Nanobot Failure",
             "effect": {
                 "money": 0,
-                "happiness": -50,
+                "happiness": -40,
                 "viralRate": 10
             },
             "condition": "happiness >= 80 && Math.random() <= 0.3 && policyUsing(19)",
