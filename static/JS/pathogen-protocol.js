@@ -18,7 +18,7 @@ canvas.height = 800;
 
 let money = 5;
 let population = 0;
-let happiness = 100;
+let happiness = 200;
 let day = 1;
 
 let research1 = null
@@ -408,7 +408,7 @@ function checkGameStatus() {
     }
 
     if (allHealed && day > 1) {
-        drawEndMessage("You win", "green");
+        drawEndMessage("You Win!", "green");
         return true;
     }
 
@@ -424,7 +424,6 @@ async function gameLoop() {
     if (!areas || checkGameStatus()) return stopAudio(musicGainNode);
 
     let chance = calculateVirusRate(areas);
-
     day++;
     infect_random_area(chance, areas);
 
@@ -448,7 +447,7 @@ async function gameLoop() {
         if (area.infected && area.population > 0) {
             if (totalEffectiveness > 0) {
                 area.viralRate -= totalEffectiveness / (6 + area.viralRate / 50);
-                area.viralRate = Math.max(0, area.viralRate)
+                area.viralRate = Math.max(0, area.viralRate);
             } else {
                 area.viralRate += Math.max(3, 6 - totalEffectiveness) * (1.5 + area.viralRate / 100);
             }
@@ -456,12 +455,13 @@ async function gameLoop() {
             if (area.viralRate <= 0) {
                 area.infected = false;
                 send_event_alert(`${area.name} has been healed!`, "lightgreen");
-                money += 10
+                money += 10;
             } else {
                 area.population = Math.max(0, area.population - Math.floor(Math.random() * 1000 * area.viralRate / 50));
             }
-            if (area.population == 0) {
-                area.infected = false
+
+            if (area.population === 0) {
+                area.infected = false;
                 send_event_alert(`${area.name} has gone extinct...`, "red");
             }
         } else if (!area.infected) {
@@ -474,12 +474,16 @@ async function gameLoop() {
 
     population = pop;
     happiness -= Math.round(severityImpact);
-
     money += Math.round(10 - infectedAreas.length - severityImpact);
 
-    stats.innerHTML = `Day: ${day} &emsp; Population: ${population} &emsp; Happiness: ${happiness} &emsp; Money: ${money}`;
-    drawMap(areas);
+    // 🔹 Calculate average viral rate of all cities
+    let avgViralRate = areas.reduce((sum, area) => sum + area.viralRate, 0) / areas.length;
+    avgViralRate = Math.round(avgViralRate);
 
+    // 🔹 Updated stats line
+    stats.innerHTML = `Day: ${day} &emsp; Population: ${population} &emsp; Happiness: ${happiness} &emsp; Money: ${money} &emsp; Viral Rate: ${avgViralRate}%`;
+
+    drawMap(areas);
     policyContainer.innerHTML = ``;
     addPolicies(policies, research1, research2);
 
@@ -487,6 +491,7 @@ async function gameLoop() {
         lose();
     }
 }
+
 
 async function init() {
     areas = await getAreas();
