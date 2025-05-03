@@ -416,7 +416,7 @@
             "name": "Healthcare System Strain",
             "effect": {
                 "money": -20,
-                "happiness": -40,
+                "happiness": -30,
                 "viralRate": 5
             },
             "condition": "money >= 65 && happiness >= 60 && Math.random() <= 0.3",
